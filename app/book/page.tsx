@@ -197,7 +197,7 @@ export default function HomePage() {
           <div className='col-md-6'>
               <div >
                   <h1 className={styles.servicesTitle}>Couple</h1>
-                  <p className={styles.servicesText}><br/>Discover the romance of our couple water biking rental! Glide across the water's surface on our premium water bikes, designed for stability and an intimate aquatic adventure.<br/><br/> Each rental includes safety gear and a detailed operational briefing, tailored for couples seeking a unique shared experience.<br/><br/></p>
+                  <p className={styles.servicesText}><br/>Discover the romance of our couple water biking rental! Glide across the water&apos;s surface on our premium water bikes, designed for stability and an intimate aquatic adventure.<br/><br/> Each rental includes safety gear and a detailed operational briefing, tailored for couples seeking a unique shared experience.<br/><br/></p>
                   <a href='https://www.picktime.com/c80a1779-c0f5-4957-86ce-1addfb902b99'><button type='button' className={styles.bookSectionButton}>Book Now</button></a>
               </div>
             </div>
