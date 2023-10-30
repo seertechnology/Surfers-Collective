@@ -82,7 +82,7 @@ export default function HomePage() {
           {/* <div className='container'> */}
             <nav className={mobileNav ? "navbar navbar-expand-xl navbar-dark  p-4" : "navbar navbar-expand-xl navbar-dark p-4"} style={mobileNav ? {backgroundColor: '#993A25'} : {backgroundColor: ''}}>
             <a className="navbar-brand" href="#">
-              <Image src={logo} width={69} height={69} className={styles.topLogo} alt=""></Image>
+              <Image src={logoW} width={69} height={69} className={styles.topLogo} alt=""></Image>
             </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => mobileNav ? setMobileNav(false) : setMobileNav(true)}>
                     <span className="navbar-toggler-icon"></span>
@@ -246,18 +246,18 @@ water biking adventure.</p>
             </div>
             <div className='col-md'>
               <div className='row'>
-                <div className='col-md'>
+                <div className='col-md py-3'>
                   <p className={styles.cr}>Links</p>
                   <a href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Home</p></a>
                   <a href='/gallery' style={{textDecoration: 'none'}}><p className={styles.crs}>Gallery</p></a>
                   <a href='/book' style={{textDecoration: 'none'}}><p className={styles.crs}>Book Now</p></a>
                   <a href='/giftvoucher' style={{textDecoration: 'none'}}><p className={styles.crs}>Gift Voucher</p></a>
                 </div>
-                <div className='col-md'>
+                <div className='col-md py-3'>
                   <p className={styles.cr}>Contact Us</p>
                   <a href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Contact Us</p></a>
                 </div>
-                <div className='col-md'>
+                <div className='col-md py-3'>
                   <p className={styles.cr}>Follow Us</p>
                   <p className={styles.crs}>Facebook</p>
                   <p className={styles.crs}>Instagram</p>

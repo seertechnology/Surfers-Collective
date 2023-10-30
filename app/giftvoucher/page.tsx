@@ -4,8 +4,10 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Head from 'next/head'
 import Link from 'next/link'
-import HeadSection from '../head'
 
+//Components
+import HeadSection from '../head'
+import GiftFeature from './giftFeature'
 
 // Logo
 import logo from '../../assets/images/l.png'
@@ -76,7 +78,7 @@ export default function HomePage() {
           {/* <div className='container'> */}
             <nav className={mobileNav ? "navbar navbar-expand-xl navbar-dark  p-4" : "navbar navbar-expand-xl navbar-dark p-4"} style={mobileNav ? {backgroundColor: '#993A25'} : {backgroundColor: ''}}>
             <a className="navbar-brand" href="#">
-              <Image src={logo} width={69} height={69} className={styles.topLogo} alt=""></Image>
+              <Image src={logoW} width={69} height={69} className={styles.topLogo} alt=""></Image>
             </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => mobileNav ? setMobileNav(false) : setMobileNav(true)}>
                     <span className="navbar-toggler-icon"></span>
@@ -171,63 +173,7 @@ export default function HomePage() {
         {/*  */}
 
       </div>
-
-      {/* Single - Start */}
-      <div className={styles.weldingBg} ref={pushRef}>
-        <div className='container'>
-          <div className='row pt-5 pb-5'>
-            <div className='col-lg-6'>
-              <Image src={singleVoucher} width={475} height={280} className={styles.sectionImage} alt=""></Image>
-            </div>
-            <div className='col-lg-6'>
-              <div >
-                  <h1 className={styles.servicesTitle}>Single</h1>
-                  <p className={styles.servicesText}><br/>Experience the thrill of water biking with our single rental option! Our premium water bikes, designed for stability and ease of use, provide an exhilarating aquatic cycling adventure.<br/><br/> Equipped with safety gear and a detailed operational briefing, this rental is perfect for solo explorers seeking a unique and memorable outing.<br/><br/></p>
-                  <a href='https://buy.stripe.com/test_bIYbMmgSlbrhd44eUU'><button type='button' className={styles.bookSectionButton}>Book Now</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Single - End */}
-
-      {/* Couple - Start */}
-      <div className={styles.weldingBg} ref={pushRef}>
-        <div className='container'>
-          <div className='row pt-5 pb-5'>
-          <div className='col-lg-6'>
-              <div >
-                  <h1 className={styles.servicesTitle}>Couple</h1>
-                  <p className={styles.servicesText}><br/>Discover the romance of our couple water biking rental! Glide across the water&apos;s surface on our premium water bikes, designed for stability and an intimate aquatic adventure.<br/><br/> Each rental includes safety gear and a detailed operational briefing, tailored for couples seeking a unique shared experience.<br/><br/></p>
-                  <a href='https://buy.stripe.com/test_7sI3fQ6dH1QHaVWeUV'><button type='button' className={styles.bookSectionButton}>Book Now</button></a>
-              </div>
-            </div>
-            <div className='col-lg-6'>
-              <Image src={coupleVoucher} width={475} height={280} className={styles.sectionImage} alt=""></Image>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Couple - End */}
-
-      {/* Family - Start */}
-      <div className={styles.weldingBg} ref={pushRef}>
-        <div className='container'>
-          <div className='row pt-5 pb-5'>
-            <div className='col-lg-6'>
-              <Image src={familyVoucher} width={475} height={280} className={styles.sectionImage} alt=""></Image>
-            </div>
-            <div className='col-lg-6'>
-              <div >
-                  <h1 className={styles.servicesTitle}>Family</h1>
-                  <p className={styles.servicesText}><br/>Experience the joy of our family water biking rental! Ride our premium water bikes, crafted for stability and excitement on the water, creating an ideal adventure for all ages.<br/><br/> Each rental package includes safety gear and a comprehensive operational briefing, perfect for families seeking an extraordinary shared outing.<br/><br/></p>
-                  <a href='https://buy.stripe.com/test_5kA17I59D0MDfcc4gi'><button type='button' className={styles.bookSectionButton}>Book Now</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Family - End */}
+      <GiftFeature />
 
       {/* footer - Start */}
       <div className={styles.footerSection}>
@@ -248,18 +194,18 @@ water biking adventure.</p>
             </div>
             <div className='col-md'>
               <div className='row'>
-                <div className='col-md'>
+                <div className='col-md  py-3'>
                   <p className={styles.cr}>Links</p>
                   <a href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Home</p></a>
                   <a href='/gallery' style={{textDecoration: 'none'}}><p className={styles.crs}>Gallery</p></a>
                   <a href='/book' style={{textDecoration: 'none'}}><p className={styles.crs}>Book Now</p></a>
                   <a href='/giftvoucher' style={{textDecoration: 'none'}}><p className={styles.crs}>Gift Voucher</p></a>
                 </div>
-                <div className='col-md'>
+                <div className='col-md py-3'>
                   <p className={styles.cr}>Contact Us</p>
                   <a href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Contact Us</p></a>
                 </div>
-                <div className='col-md'>
+                <div className='col-md  py-3'>
                   <p className={styles.cr}>Follow Us</p>
                   <p className={styles.crs}>Facebook</p>
                   <p className={styles.crs}>Instagram</p>

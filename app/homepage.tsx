@@ -82,7 +82,7 @@ export default function HomePage() {
                 </nav>
               </div>
             </div>
-          {/* </div> */}
+          {/* end mobile menu */}
 
         
         <div className='container'>
@@ -230,18 +230,18 @@ water biking adventure.</p>
             </div>
             <div className='col-md'>
               <div className='row'>
-                <div className='col-md'>
+                <div className='col-md py-3'>
                   <p className={styles.cr}>Links</p>
                   <a href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Home</p></a>
                   <a href='/gallery' style={{textDecoration: 'none'}}><p className={styles.crs}>Gallery</p></a>
                   <a href='/book' style={{textDecoration: 'none'}}><p className={styles.crs}>Book Now</p></a>
                   <a href='/giftvoucher' style={{textDecoration: 'none'}}><p className={styles.crs}>Gift Voucher</p></a>
                 </div>
-                <div className='col-md'>
+                <div className='col-md py-3'>
                   <p className={styles.cr}>Contact Us</p>
                   <a href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Contact Us</p></a>
                 </div>
-                <div className='col-md'>
+                <div className='col-md py-3'>
                   <p className={styles.cr}>Follow Us</p>
                   <p className={styles.crs}>Facebook</p>
                   <p className={styles.crs}>Instagram</p>
