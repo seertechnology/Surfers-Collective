@@ -40,8 +40,8 @@
 /* navbar section */
 .navbarSection {
   padding-top: 0px;
-  font-family: 'Caladea', sans-serif;
-  font-size: 18px;
+  font-family: 'Calistoga', sans-serif;
+  font-size: 17px;
 }
 
 .navbarLinks {
@@ -77,9 +77,10 @@
     background-color: #6F1A1A;
     border: none;
     color: rgba(255, 255, 255 ,1);
-    font-family: 'Caladea', sans-serif;
-    -webkit-text-stroke: 0.7px #ffffff;
+    font-family: 'Calistoga', sans-serif;
     font-size: 17px;
+    margin-top: 7px;
+
     border-radius: 20px;
     width: 144px;
     height: 33px;
@@ -88,14 +89,14 @@
   }
 
   .contactUsButton:hover {
-    background-color: rgba(11, 99, 181, 1);
+    background-color: #800F0F;
     transition: all 1s;
   }
 
   .viewServicesButton {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'Calistoga', sans-serif;
     font-size: 17px;
-    -webkit-text-stroke: 0.7px #ffffff;
+    margin-top: 10px;
     border: none;
     color: white;
     background: none;

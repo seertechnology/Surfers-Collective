@@ -63,7 +63,7 @@ export default function HomePage() {
                     <div className="collapse navbar-collapse  " id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto text-center">
                             <li className="nav-item">
-                              <a href="/home" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5'>Home</h1></a>
+                              <a href="/home" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5' style={{fontFamily:"Calistoga"}}>Home</h1></a>
                             </li>
                             <li className="nav-item">
                               <a href="/gallery" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5'>Gallery</h1></a>
