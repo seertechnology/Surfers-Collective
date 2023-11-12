@@ -10,15 +10,16 @@ import logoW from '../assets/images/l_w.png'
 
 // Vectors
 import vector from '../assets/images/Vector_w.png'
-import number1 from '../assets/images/Layout/6/Frame 75.png'
-import number2 from '../assets/images/Number2/Layout/6/Frame 75.png'
-import number3 from '../assets/images/Number3/Layout/6/Frame 75.png'
+import number1 from '../assets/images/embark/01img.png'
+import number2 from '../assets/images/embark/02img.png'
+import number3 from '../assets/images/embark/03img.png'
 
 import forgeCombined from '../assets/images/infoImageCombined.png'
 
 // Footer Image
 import { ChangeEvent, useEffect, useRef, useState } from 'react'
 import { useOnScreen } from './isOnScreen'
+import Link from 'next/link'
  
 
 
@@ -53,29 +54,31 @@ export default function HomePage() {
         <div className={styles.mobileNav}>
         <div className={styles.navbarSection}>
           {/* <div className='container'> */}
-            <nav className={mobileNav ? "navbar navbar-expand-xl navbar-dark  p-4" : "navbar navbar-expand-xl navbar-dark p-4"} style={mobileNav ? {backgroundColor: '#993A25'} : {backgroundColor: ''}}>
-            <a className="navbar-brand" href="#">
-              <Image src={logo} width={69} height={69} className={styles.topLogo} alt=""></Image>
-            </a>
+            <nav className={mobileNav ? "navbar navbar-expand-xl navbar-dark  p-4" : "navbar navbar-expand-xl navbar-dark p-4"} style={mobileNav ? {backgroundColor: '#116C89'} : {backgroundColor: ''}}>
+            <Link className="navbar-brand" href="#">
+              <Image src={mobileNav ? logoW : logo} width={69} height={69} className={styles.topLogo} alt=""></Image>
+            </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => mobileNav ? setMobileNav(false) : setMobileNav(true)}>
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse  " id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto text-center">
                             <li className="nav-item">
-                              <a href="/home" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5' style={{fontFamily:"Calistoga"}}>Home</h1></a>
+                              <Link href="/" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5'>Home</h1></Link>
                             </li>
                             <li className="nav-item">
-                              <a href="/gallery" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5'>Gallery</h1></a>
+                              <Link href="/about" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5'>About</h1></Link>
                             </li>
                             <li className="nav-item">
-                              <a href="/book" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5'>Book Now</h1></a>
+                              <Link href="/gallery" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5'>Gallery</h1></Link>
                             </li>
                             <li className="nav-item">
-                              <a href="/giftvoucher" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-5 pb-5'>Gift Card</h1></a>
+                              <Link href="/book" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5'>Book Now</h1></Link>
                             </li>
                             <li className="nav-item">
-                              <a href="/contactus" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-4 pb-5'>Contact Us</h1></a>
+                              <Link href="/giftvoucher" className='nav-link active text-white font-weight-bold' aria-current='page'><h1 className='pt-5 pb-5'>Gift Card</h1></Link>
+                            </li>
+                            <li className="nav-item">
                             </li>
                         </ul>
                     </div>
@@ -95,22 +98,25 @@ export default function HomePage() {
             <div className={styles.desktopNav}>
             <div className={styles.navbarSection}>
               <nav className="navbar navbar-expand-lg navbar-dark">
-                <a className="navbar-brand" href="#">
+                <Link className="navbar-brand" href="#">
                 <Image src={logo} width={69} height={69} className="d-inline-block align-top mt-4" alt=""></Image>
-                </a>
+                </Link>
                 
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                      <a href="/" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>Home</a>
+                      <Link href="/" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>Home</Link>
                     </li>
                     <li className="nav-item">
-                      <a href="/gallery" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gallery</a>
+                      <Link href="/about" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>About</Link>
                     </li>
                     <li className="nav-item">
-                      <a href="/book" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Book Now</a>
+                      <Link href="/gallery" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gallery</Link>
                     </li>
                     <li className="nav-item">
-                      <a href="/giftvoucher" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gift Voucher</a>
+                      <Link href="/book" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Book Now</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/giftvoucher" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gift Voucher</Link>
                     </li>
                 </ul>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -119,10 +125,10 @@ export default function HomePage() {
                   <div className="collapse navbar-collapse  " id="navbarSupportedContent">
                       <ul className="navbar-nav ms-auto">
                           <li className="nav-item mx-2">
-                            <a href='/contactus'><button type='button' className={styles.viewServicesButton}>Contact Us &#160; </button></a>
+                            <Link href='/contactus'><button type='button' className={styles.viewServicesButton}>Contact Us &#160; </button></Link>
                           </li>
                           <li className="nav-item">
-                            <a href='/book'><button type='button' className={styles.contactUsButton}>Book Now</button></a>
+                            <Link href='/book'><button type='button' className={styles.contactUsButton}>Book Now</button></Link>
                           </li>
                       </ul>
                   </div>
@@ -140,12 +146,12 @@ export default function HomePage() {
           <div className='row'>
             <div className='col-lg'>
             <div className={styles.titleSection}>
-          <h1 className={styles.titleTitleText}>Water-biking rentals across Sydney</h1>
-          <p className={styles.titleSubText}>Picture solo adventurers and groups effortlessly reserving water bikes for a laid-back, unforgettable day on the water. Our easy-to-use platform makes it a breeze to rent water bikes and enjoy a leisurely aquatic adventure.</p>
+          <h1 className={styles.titleTitleText}>Sydney's<br/> newest and<br/> easiest way to<br/> get out on the<br/> water.</h1>
+          <p className={styles.titleSubText}>Picture yourself and loved ones riding around Sydney's glorious waterways on one of our state-of-the-art eco-friendly Schiller water bikes. Spend a half or full day exploring, swimming, sightseeing, searching for that picture perfect deserted beach to pull up on for a picnic. An unforgettable experience creating memories that will last a lifetime.</p>
           {/* Button Section */}
           <div>
-            <a href='#contactUs'><button type='button' className={styles.contactUsButton}>Book Now</button></a>
-            <a href='/services'><button type='button' className={styles.viewServicesButton}>Contact Us &#160; <Image src={vector} width={8} height={12} alt='right-arrow'/></button></a>
+            <Link href='#contactUs'><button type='button' className={styles.contactUsButton}>Book Now</button></Link>
+            <Link href='/services'><button type='button' className={styles.viewServicesButton}>Contact Us &#160; <Image src={vector} width={8} height={12} alt='right-arrow'/></button></Link>
           </div>
         </div>
             </div>
@@ -172,7 +178,7 @@ export default function HomePage() {
                   <div className='row'>
                     {/* Industry Expertise */}
                     <div className='col-md-1'>
-                      <Image src={number1} width={24} height={24} alt="number-1"/>
+                      <Image src={number1} width={120} height={100} alt="number-1"/>
                     </div>
                     <div className='col-md pt-2'>
                       <h5 className={styles.forgeBoxTitle}>Best Choice</h5>
@@ -181,7 +187,7 @@ export default function HomePage() {
 
                     {/* Flexibility and Accessibility */}
                     <div className='col-md-1'> 
-                        <Image src={number2} width={24} height={24} alt='number-2'/>
+                        <Image src={number2} width={90} height={100} alt='number-2'/>
                     </div>
                     <div className='col-md pt-2'>
                       <h5 className={styles.forgeBoxTitle}>Competitive Price</h5>
@@ -192,7 +198,7 @@ export default function HomePage() {
                       <div className='row'>
                         {/* Skilled Craftsmanship */}
                         <div className='col-md-1'> 
-                            <Image src={number3} width={24} height={24} alt='number-3'/>
+                            <Image src={number3} width={100} height={100} alt='number-3'/>
                         </div>
                         <div className='col-md pt-2'>
                           <h5 className={styles.forgeBoxTitle}>Refund and Reschedule</h5>
@@ -218,7 +224,7 @@ export default function HomePage() {
             <div className='col-md'>
               <div className='row'>
                 <div className='col-md-5'>
-                  <Image src={logoW} width={69} height={69} alt='approved-industries'/>
+                  <Image src={logoW} width={69} height={69} alt='swbr'/>
                 </div>
               </div>
               <div className='row-md'>
@@ -232,14 +238,14 @@ water biking adventure.</p>
               <div className='row'>
                 <div className='col-md py-3'>
                   <p className={styles.cr}>Links</p>
-                  <a href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Home</p></a>
-                  <a href='/gallery' style={{textDecoration: 'none'}}><p className={styles.crs}>Gallery</p></a>
-                  <a href='/book' style={{textDecoration: 'none'}}><p className={styles.crs}>Book Now</p></a>
-                  <a href='/giftvoucher' style={{textDecoration: 'none'}}><p className={styles.crs}>Gift Voucher</p></a>
+                  <Link href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Home</p></Link>
+                  <Link href='/gallery' style={{textDecoration: 'none'}}><p className={styles.crs}>Gallery</p></Link>
+                  <Link href='/book' style={{textDecoration: 'none'}}><p className={styles.crs}>Book Now</p></Link>
+                  <Link href='/giftvoucher' style={{textDecoration: 'none'}}><p className={styles.crs}>Gift Voucher</p></Link>
                 </div>
                 <div className='col-md py-3'>
                   <p className={styles.cr}>Contact Us</p>
-                  <a href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Contact Us</p></a>
+                  <Link href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Contact Us</p></Link>
                 </div>
                 <div className='col-md py-3'>
                   <p className={styles.cr}>Follow Us</p>

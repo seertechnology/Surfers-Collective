@@ -1,20 +1,20 @@
 /* Font Imports */
 @font-face {
-  font-family: 'Calistoga';
-  src: url('../assets/fonts/Calistoga-Regular.ttf') format('truetype');
+  font-family: 'Alone On Earth';
+  src: url('../assets/fonts/Alone\ On\ Earth.otf') format('opentype');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Caladea';
-  src: url('../assets/fonts/Caladea-Regular.ttf') format('truetype');
+  font-family: 'American Typewriter';
+  src: url('../assets/fonts/ufonts.com_american-typewriter.ttf') format('truetype');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Caladea';
-  src: url('../assets/fonts/Caladea-Bold.ttf') format('truetype');
-  font-weight: 500;
+  font-family: 'American Typewriter';
+  src: url('../assets/fonts/ufonts.com_american-typewriter-bold.ttf') format('truetype');
+  font-weight: 700;
 }
 
 .background {
@@ -22,17 +22,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 800px;
+  height: 1000px;
   
 }
 
-.fontCalistoga {
-  font-family: 'Calistoga', sans-serif;
+.fontAlone On Earth {
+  font-family: 'Alone On Earth', sans-serif;
   font-size: 100px;
 }
 
 .fontOs {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 100px;
   font-weight: 700;
 }
@@ -40,12 +40,12 @@
 /* navbar section */
 .navbarSection {
   padding-top: 0px;
-  font-family: 'Calistoga', sans-serif;
+  font-family: 'Alone On Earth', sans-serif;
   font-size: 17px;
 }
 
 .navbarLinks {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: white;
@@ -57,44 +57,45 @@
 }
 
   .titleTitleText {
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     color: white;
     font-size: 75px;
+    letter-spacing: 5px;
+    line-height: 97%;
     font-weight: 400;
   }
 
   .titleSubText {
-    font-family: 'Caladea', sans-serif;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 18.5px;
-    font-weight: 100;
+    font-family: 'American Typewriter', sans-serif;
+    color: #014271;
+    font-size: 17px;
+    font-weight: 400;
     width: 500px;
     line-height: 150%;
-    margin: 40px 0px 40px 0px;
   }
 
   .contactUsButton {
-    background-color: #6F1A1A;
+    background-color: #2E5D6C;
     border: none;
     color: rgba(255, 255, 255 ,1);
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     font-size: 17px;
     margin-top: 7px;
 
     border-radius: 20px;
     width: 144px;
-    height: 33px;
+    height: 29px;
     margin-right: 15px;
-    box-shadow: 0px 0px 10px #800F0F;
+    box-shadow: 0px 0px 10px #408499;
   }
 
   .contactUsButton:hover {
-    background-color: #800F0F;
+    background-color: #408499;
     transition: all 1s;
   }
 
   .viewServicesButton {
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     font-size: 17px;
     margin-top: 10px;
     border: none;
@@ -111,14 +112,14 @@
 }
 
 .forgeTitle {
-  font-family: 'Calistoga', sans-serif;
+  font-family: 'Alone On Earth', sans-serif;
   font-size: 40px;
   line-height: 120%;
   color: #1A1A1A;
 }
 
 .forgeSubTitle {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
   line-height: 150%;
   color: #1A1A1A;
@@ -129,14 +130,14 @@
 }
 
 .forgeBoxTitle {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
   line-height: 140%;
   color: #1A1A1A;
 }
 
 .forgeBoxText {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
   line-height: 150%;
   color: rgba(0, 0, 0, 0.6);
@@ -163,7 +164,7 @@
 }
 
 .ourServicesTitle {
-  font-family: 'Calistoga', sans-serif;
+  font-family: 'Alone On Earth', sans-serif;
   font-size: 40px;
   letter-spacing: 5%;
   color: rgba(255,255,255,1);
@@ -171,7 +172,7 @@
 }
 
 .ourServicesSubTitle {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
   line-height: 150%;
   color: #8A8A8A;
@@ -179,7 +180,7 @@
 }
 
 .serviceImageTitle {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
   line-height: 150%;
   font-weight: bold;
@@ -188,7 +189,7 @@
 }
 
 .includeTitle {
-  font-family: 'Calistoga', sans-serif;
+  font-family: 'Alone On Earth', sans-serif;
   font-size: 25px;
   line-height: 150%;
   letter-spacing: 20%;
@@ -198,7 +199,7 @@
 }
 
 .includeText {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 19px;
   line-height: 210%;
   color: rgba(255,255,255,0.8);
@@ -210,27 +211,27 @@
 
 .contactUsSection {
   margin: 125px;
-  /* font-family: 'Caladea', sans-serif; */
+  /* font-family: 'American Typewriter', sans-serif; */
 }
 
   .contactTitle {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 14px;
-    color: #6F1A1A;
+    color: #2E5D6C;
   }
 
   .contactSubTitle {
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     font-size: 40px;
     color: #2E2E2E;
     margin-bottom: 30px;
   }
 
   .submitButton {
-    background-color: #6F1A1A;
+    background-color: #2E5D6C;
     border: none;
     color: rgba(255, 255, 255 ,1);
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 17px;
     width: 90px;
     height: 30px;
@@ -239,10 +240,10 @@
   }
 
   .submitButtonSent {
-    background-color: #3d0d0d;
+    background-color: #2E5D6C;
     border: none;
     color: rgb(94, 94, 94);
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 17px;
     width: 105px;
     height: 30px;
@@ -256,14 +257,14 @@
 
 
   .contactDetailTitle {
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     font-size: 25px;
     line-height: 180%;
     color: #1A1A1A;
   }
 
   .contactDetailText {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 17px;
     color: #3F3F3F;
     line-height: 150%;
@@ -275,14 +276,14 @@
 }
 
   .companyContactTitle {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 14px;
     color: #358AD8;
     font-weight: 100;
   }
 
   .companyContactDetail {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 20px;
     color: #636363;
   }
@@ -297,7 +298,7 @@
 }
 
 .trustedText {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
   color: #505050;
   align-items: center;
@@ -312,26 +313,26 @@
 /* Section 5, Footer - Start */
 
 .footerSection {
-  background-color: #342525;
-  font-family: 'Caladea', sans-serif;
+  background-color: #1C363F;
+  font-family: 'American Typewriter', sans-serif;
   padding: 15px 0px 15px 0px;
 }
 
   .approvedIndustriesText {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.2);
   }
 
   .cr {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
   }
 
   .crs {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
@@ -341,7 +342,7 @@
     border: 0.5px solid #ffffff;
   }
   .tnc {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
   }
@@ -368,7 +369,7 @@
   }
 
   .background {
-    background-image: url(../assets/images/mobileBg.png);
+    background-image: url(../assets/images/mobileBg-2.png);
   }
 
   .titleSection {
@@ -377,7 +378,7 @@
   }
 
   .titleTitleText {
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     color: white;
     font-size: 55.5px;
     font-weight: 400;
@@ -385,9 +386,9 @@
   }
 
   .titleSubText {
-      color: rgba(255, 255, 255, 0.8);
+      color: #2E5D6C;
       font-size: 20.5px;
-      font-weight: 100;
+      font-weight: 400;
       width: 100%;
       text-align: center;
       /* line-height: 150%; */
@@ -395,28 +396,28 @@
   }
 
   .contactUsButton {
-    background-color: #6F1A1A;
+    background-color: #2E5D6C;
     border: none;
     color: rgba(255, 255, 255 ,1);
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     font-size: 16.5px;
     border-radius: 5px;
     width: 30%;
     height: 40px;
     margin-top: 50px;
     margin-right: 15px;
-    box-shadow: 0px 0px 10px #800F0F;
+    box-shadow: 0px 0px 10px #2E5D6C;
     text-align: center;
     width: 100%;
   }
 
   .contactUsButton:hover {
-    background-color: #390d0d;
+    background-color: #3e8197;
     transition: all 1s;
   }
 
   .viewServicesButton {
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     font-size: 16.5px;
     border: none;
     color: white;

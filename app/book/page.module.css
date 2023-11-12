@@ -1,37 +1,37 @@
 /* Font Imports */
 @font-face {
-  font-family: 'Calistoga';
-  src: url('../../assets/fonts/Calistoga-Regular.ttf') format('truetype');
+  font-family: 'Alone On Earth';
+  src: url('../../assets/fonts/Alone\ On\ Earth.otf') format('opentype');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Caladea';
-  src: url('../../assets/fonts/Caladea-Regular.ttf') format('truetype');
+  font-family: 'American Typewriter';
+  src: url('../../assets/fonts/ufonts.com_american-typewriter.ttf') format('truetype');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Caladea';
-  src: url('../../assets/fonts/Caladea-Bold.ttf') format('truetype');
-  font-weight: 500;
+  font-family: 'American Typewriter';
+  src: url('../../assets/fonts/ufonts.com_american-typewriter-bold.ttf') format('truetype');
+  font-weight: 700;
 }
 
 .background {
-  background-color: #993A25;
+  background-color: #116C89;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 500px;
+  max-height: 500px;
 }
 
-.fontCalistoga {
-  font-family: 'Calistoga', sans-serif;
+.fontAloneOnEarth {
+  font-family: 'Alone On Earth', sans-serif;
   font-size: 100px;
 }
 
 .fontOs {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 100px;
   font-weight: 700;
 }
@@ -39,12 +39,12 @@
 /* navbar section */
 .navbarSection {
   padding-top: 0px;
-  font-family: 'Calistoga', sans-serif;
+  font-family: 'Alone On Earth', sans-serif;
   font-size: 17px;
 }
 
 .navbarLinks {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: white;
@@ -56,44 +56,44 @@
 }
 
   .titleTitleText {
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     color: white;
     font-size: 65px;
     font-weight: 400;
   }
 
   .titleSubText {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     color: rgba(255, 255, 255, 0.8);
     font-size: 17px;
     font-weight: 100;
-    width: 500px;
-    line-height: 150%;
+    max-width: 500px;
+    line-max-height: 150%;
     margin: 40px 0px 40px 0px;
   }
 
   .contactUsButton {
-    background-color: #6F1A1A;
+    background-color: #2E5D6C;
     border: none;
     color: rgba(255, 255, 255 ,1);
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     font-size: 17px;
     margin-top: 7px;
 
     border-radius: 20px;
-    width: 144px;
-    height: 33px;
+    max-width: 144px;
+    max-height: 33px;
     margin-right: 15px;
-    box-shadow: 0px 0px 10px #800F0F;
+    box-shadow: 0px 0px 10px #2E5D6C;
   }
 
   .contactUsButton:hover {
-    background-color: #800F0F;
+    background-color: #428298;
     transition: all 1s;
   }
 
   .viewServicesButton {
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     font-size: 17px;
     margin-top: 10px;
     border: none;
@@ -110,16 +110,16 @@
 }
 
 .forgeTitle {
-  font-family: 'Calistoga', sans-serif;
+  font-family: 'Alone On Earth', sans-serif;
   font-size: 40px;
-  line-height: 120%;
+  line-max-height: 120%;
   color: #1A1A1A;
 }
 
 .forgeSubTitle {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
-  line-height: 150%;
+  line-max-height: 150%;
   color: #1A1A1A;
 }
 
@@ -128,16 +128,16 @@
 }
 
 .forgeBoxTitle {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
-  line-height: 140%;
+  line-max-height: 140%;
   color: #1A1A1A;
 }
 
 .forgeBoxText {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
-  line-height: 150%;
+  line-max-height: 150%;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -161,30 +161,29 @@
 }
 
   .servicesTitle {
-      font-family: 'Calistoga', sans-serif;
+      font-family: 'Alone On Earth', sans-serif;
       color: #100B29;
       font-size: 40px;
       font-weight: 400;
   }
 
   .servicesText {
-      font-family: 'Caladea', sans-serif;
+      font-family: 'American Typewriter', sans-serif;
       color: #100B29;
       font-size: 18px;
   }
 
   .bookSectionButton {
     margin-top: 5px;
-    background-color: #6F1A1A;
+    background-color: #0d4c61;
     border: none;
     color: rgba(255, 255, 255 ,1);
-    font-family: 'Caladea', sans-serif;
-    -webkit-text-stroke: 0.7px #ffffff;
+    font-family: 'Alone On Earth', sans-serif;
     font-size: 17px;
     border-radius: 5px;
-    width: 130px;
-    height: 30px;
-    box-shadow: 0px 0px 10px #800F0F;
+    max-width: 130px;
+    max-height: 29px;
+    box-shadow: 0px 0px 10px #0d4c61;
   }
 
 
@@ -196,7 +195,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  /* height: 700px; */
+  /* max-height: 700px; */
 }
 
 /* Section 1, Welding - End */
@@ -207,7 +206,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 700px;
+  max-height: 700px;
 }
 /* Section 2, Construction - End */
 
@@ -217,7 +216,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 700px;
+  max-height: 700px;
 }
 /* Section 3, Posts - End */
 
@@ -229,7 +228,7 @@
 }
 
 .ourServicesTitle {
-  font-family: 'Calistoga', sans-serif;
+  font-family: 'Alone On Earth', sans-serif;
   font-size: 40px;
   letter-spacing: 5%;
   color: rgba(255,255,255,1);
@@ -237,26 +236,26 @@
 }
 
 .ourServicesSubTitle {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
-  line-height: 150%;
+  line-max-height: 150%;
   color: #8A8A8A;
   text-align: center;
 }
 
 .serviceImageTitle {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 18px;
-  line-height: 150%;
+  line-max-height: 150%;
   font-weight: bold;
   padding-top: 15px;
   color: rgba(255, 255, 255 ,1);
 }
 
 .includeTitle {
-  font-family: 'Calistoga', sans-serif;
+  font-family: 'Alone On Earth', sans-serif;
   font-size: 25px;
-  line-height: 150%;
+  line-max-height: 150%;
   letter-spacing: 20%;
   color: rgba(255,255,255,1);
   text-align: center;
@@ -264,9 +263,9 @@
 }
 
 .includeText {
-  font-family: 'Caladea', sans-serif;
+  font-family: 'American Typewriter', sans-serif;
   font-size: 19px;
-  line-height: 210%;
+  line-max-height: 210%;
   color: rgba(255,255,255,0.8);
 }
 
@@ -275,26 +274,26 @@
 /* Section 5, Footer - Start */
 
 .footerSection {
-  background-color: #342525;
-  font-family: 'Caladea', sans-serif;
+  background-color: #1C363F;
+  font-family: 'American Typewriter', sans-serif;
   padding: 15px 0px 15px 0px;
 }
 
   .approvedIndustriesText {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.2);
   }
 
   .cr {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
   }
 
   .crs {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
@@ -304,7 +303,7 @@
     border: 0.5px solid #ffffff;
   }
   .tnc {
-    font-family: 'Caladea', sans-serif;
+    font-family: 'American Typewriter', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
   }
@@ -328,7 +327,7 @@
 @media screen and (max-width:1000px) {
 
   .background {
-    height: 400px;
+    max-height: 400px;
   }
 
   .desktopNav {
@@ -336,7 +335,7 @@
   }
 
   .titleTitleText {
-    font-family: 'Calistoga', sans-serif;
+    font-family: 'Alone On Earth', sans-serif;
     color: white;
     font-size: 45px;
     font-weight: 400;
@@ -349,8 +348,8 @@
     color: rgba(255, 255, 255 ,1);
     font-size: 17px;
     border-radius: 3px;
-    width: 100%;
-    height: 40px;
+    max-width: 100%;
+    max-height: 40px;
     margin-top: 50px
   }
 
@@ -364,13 +363,13 @@
     border: none;
     color: white;
     background: none;
-    width: 100%;
+    max-width: 100%;
     margin-top: 10px;
   }
 
   .forgeImage {
     margin: 25px 0px 0px 0px;
-    width: 100%;
-    height: 350px;
+    max-width: 100%;
+    max-height: 350px;
   }
 }

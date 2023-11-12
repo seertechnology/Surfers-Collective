@@ -61,19 +61,19 @@ export default function OurServices() {
       <div className={styles.mobileNav}>
         <div className={styles.navbarSection}>
           <nav className={mobileNav ? "navbar navbar-expand-lg navbar-dark bg-dark p-4" : "navbar navbar-expand-lg navbar-dark p-4"}>
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" href="#">
             <Image src={logo} width={233.76} height={64.11} className={styles.topLogo} alt=""></Image>
-          </a>
+          </Link>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => mobileNav ? setMobileNav(false) : setMobileNav(true)}>
                   <span className="navbar-toggler-icon"></span>
                   </button>
                   <div className="collapse navbar-collapse  " id="navbarSupportedContent">
                       <ul className="navbar-nav ms-auto text-center">
                           <li className="nav-item">
-                            <a href="/" className='nav-link active text-white font-weight-bold' aria-current='page'>Home</a>
+                            <Link href="/" className='nav-link active text-white font-weight-bold' aria-current='page'>Home</Link>
                           </li>
                           <li className="nav-item">
-                            <a href="/#contactUs" className='nav-link active text-white font-weight-bold' aria-current='page'>Contact Us</a>
+                            <Link href="/#contactUs" className='nav-link active text-white font-weight-bold' aria-current='page'>Contact Us</Link>
                           </li>
                       </ul>
                   </div>
@@ -86,19 +86,19 @@ export default function OurServices() {
         <div className='row'>
         <div className={styles.desktopNav}>
               <nav className="navbar navbar-expand-lg navbar-dark">
-                <a className="navbar-brand" href="#">
+                <Link className="navbar-brand" href="#">
                 <Image src={logo} width={233.76} height={64.11} className="d-inline-block align-top mt-4" alt=""></Image>
-                </a>
+                </Link>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                   </button>
                   <div className="collapse navbar-collapse  " id="navbarSupportedContent">
                       <ul className="navbar-nav ms-auto">
                           <li className="nav-item">
-                            <a href="/" className='nav-link active text-black font-weight-bold' aria-current='page'>Home</a>
+                            <Link href="/" className='nav-link active text-black font-weight-bold' aria-current='page'>Home</Link>
                           </li>
                           <li className="nav-item">
-                            <a href="/#contactUs" className='nav-link active text-black font-weight-bold' aria-current='page'>Contact Us</a>
+                            <Link href="/#contactUs" className='nav-link active text-black font-weight-bold' aria-current='page'>Contact Us</Link>
                           </li>
                       </ul>
                   </div>

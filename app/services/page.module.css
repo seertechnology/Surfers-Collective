@@ -73,7 +73,7 @@
     }
   
     .contactUsButton {
-      background-color: rgba(53, 138, 216, 0.8);
+      background-color: #2E5D6C;
       border: none;
       color: rgba(255, 255, 255 ,1);
       font-size: 17px;
@@ -222,7 +222,7 @@
   /* Section 6, Footer - Start */
   
   .footerSection {
-    background-color: #383838;
+    background-color: #1C363F;
     padding: 15px 0px 15px 0px;
   }
   
