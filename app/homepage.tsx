@@ -146,8 +146,8 @@ export default function HomePage() {
           <div className='row'>
             <div className='col-lg'>
             <div className={styles.titleSection}>
-          <h1 className={styles.titleTitleText}>Sydney's<br/> newest and<br/> easiest way to<br/> get out on the<br/> water.</h1>
-          <p className={styles.titleSubText}>Picture yourself and loved ones riding around Sydney's glorious waterways on one of our state-of-the-art eco-friendly Schiller water bikes. Spend a half or full day exploring, swimming, sightseeing, searching for that picture perfect deserted beach to pull up on for a picnic. An unforgettable experience creating memories that will last a lifetime.</p>
+          <h1 className={styles.titleTitleText}>Sydney&apos;s<br/> newest and<br/> easiest way to<br/> get out on the<br/> water.</h1>
+          <p className={styles.titleSubText}>Picture yourself and loved ones riding around Sydney&apos;s glorious waterways on one of our state-of-the-art eco-friendly Schiller water bikes. Spend a half or full day exploring, swimming, sightseeing, searching for that picture perfect deserted beach to pull up on for a picnic. An unforgettable experience creating memories that will last a lifetime.</p>
           {/* Button Section */}
           <div>
             <Link href='#contactUs'><button type='button' className={styles.contactUsButton}>Book Now</button></Link>
