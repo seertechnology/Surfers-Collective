@@ -6,7 +6,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 
 // Logo
-import logo from '../../assets/images/Group 52.png'
+import logo from '../../assets/images/l_w.png'
 
 //services images
 import cover from '../../assets/images/services-page/cutting-metal-with-plasma-equipment 1.png'
