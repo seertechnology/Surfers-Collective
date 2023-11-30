@@ -5,7 +5,6 @@ import Script from 'next/script';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
-import FaceBookPixel from './FacebookPixel.js'
 
 // import { useEffect } from 'react';
 
@@ -32,9 +31,11 @@ export default function HeadSection() {
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossOrigin="anonymous"
+        id='1'
       />
 
-      <Script strategy="lazyOnload">
+      <Script id='fbpScript' strategy="lazyOnload">
+        
         {`
           !function(f,b,e,v,n,t,s){
             if(f.fbq)return;
@@ -50,6 +51,7 @@ export default function HeadSection() {
       </Script>
       <noscript>
         <img
+          id='1'
           height="1"
           width="1"
           style={{ display: 'none' }}
