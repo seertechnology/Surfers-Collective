@@ -43,12 +43,12 @@ export default function AboutFeature() {
                 <div className='col-md-6'>
                   <p className={styles.servicesText} style={{textAlign:"center"}}><br/>Our Schiller water bikes are the ultimate mix of water sports and cycling, allowing an easy, fun and safe way to experience a day out on the water in an eco-friendly manner requiring no skill or prior training making it perfect for all ages!<br/><br/>
 
-Designed and built in California, the Schiller water bike is the most advanced of its kind in the world. There is no better way to escape the busy crowds whether it’s sightseeing you have in mind, or simply wanting to discover your own secluded beach to laze the day away. Also, a great alternative for the cycling enthusiasts who would prefer weaving through moorings as opposed to the notorious Sydney traffic!<br/><br/>
+Schiller water bike is the most advanced of its kind in the world. There is no better way to escape the busy crowds whether it’s sightseeing you have in mind, or simply wanting to discover your own secluded beach to laze the day away. Also, a great alternative for the cycling enthusiasts who would prefer weaving through moorings as opposed to the notorious Sydney traffic!<br/><br/>
 
 We offer rentals on Pittwater and Middle Harbour. Both locations offer stunningly beautiful waterways that include breathtaking national parks, prize-winning waterfront houses and golden beaches to laze the day away on.<br/><br/>
 
 A self-guided tour on one of our Schiller water bikes will provide you with the freedom and opportunity to experience a bit of each.<br/><br/>
-Book your self-guided adventure today!<br/><br/>
+We will be offering self guided rentals on Pittwater and Middle Harbour as well as various other locations throughout the region, TBC.<br/><br/>
 Gift vouchers also available.<br/><br/></p>
                 </div>
               </div>
@@ -68,12 +68,11 @@ Gift vouchers also available.<br/><br/></p>
                   <div >
                       
                       <p className={styles.servicesText} style={{textAlign:"center"}}><br/>
-• Full refund or reschedule with 48 hours’ notice of cancellation.<br/><br/>
+• Full refund applies for cancellations up to 48 hours prior to scheduled rental time..<br/><br/>
 
-• No shows will be charged the full price.<br/><br/>
+• Cancellations within 48 hours of scheduled rental time will receive a voucher for equal value of original booking. Valid for 25 months.<br/><br/>
 
-• Customers may choose to reschedule their booking subject to availability, with 48 hours’<br/><br/>
-notice or take up our offer of a credit valid for 24 months.<br/><br/>
+• No shows will be charged full price.<br/><br/>
 
 Local conditions are to be assessed and determined by Sydney Water Bike Rentals staff.<br/><br/>
 
@@ -125,12 +124,12 @@ Don’t forget to bring anything you may need for a day on the water:<br/><br/>
                       <h1 className={styles.servicesTitle}>Experience the unthinkable!</h1>
                       <p className={styles.servicesText}><br/>Our Schiller water bikes are the ultimate mix of water sports and cycling, allowing an easy, fun and safe way to experience a day out on the water in an eco-friendly manner requiring no skill or prior training making it perfect for all ages!<br/><br/>
 
-Designed and built in California, the Schiller water bike is the most advanced of its kind in the world. There is no better way to escape the busy crowds whether it’s sightseeing you have in mind, or simply wanting to discover your own secluded beach to laze the day away. Also, a great alternative for the cycling enthusiasts who would prefer weaving through moorings as opposed to the notorious Sydney traffic!<br/><br/>
+Schiller water bike is the most advanced of its kind in the world. There is no better way to escape the busy crowds whether it’s sightseeing you have in mind, or simply wanting to discover your own secluded beach to laze the day away. Also, a great alternative for the cycling enthusiasts who would prefer weaving through moorings as opposed to the notorious Sydney traffic!<br/><br/>
 
 We offer rentals on Pittwater and Middle Harbour. Both locations offer stunningly beautiful waterways that include breathtaking national parks, prize-winning waterfront houses and golden beaches to laze the day away on.<br/><br/>
 
 A self-guided tour on one of our Schiller water bikes will provide you with the freedom and opportunity to experience a bit of each.<br/><br/>
-Book your self-guided adventure today!<br/><br/>
+We will be offering self guided rentals on Pittwater and Middle Harbour as well as various other locations throughout the region, TBC.<br/><br/>
 Gift vouchers also available.<br/><br/></p>
                   </div>
                 </div>
@@ -147,12 +146,11 @@ Gift vouchers also available.<br/><br/></p>
                   <div >
                       <h1 className={styles.servicesTitle}>Cancellation Policy</h1>
                       <p className={styles.servicesText}><br/>
-• Full refund or reschedule with 48 hours’ notice of cancellation.<br/><br/>
+• Full refund applies for cancellations up to 48 hours prior to scheduled rental time..<br/><br/>
 
-• No shows will be charged the full price.<br/><br/>
+• Cancellations within 48 hours of scheduled rental time will receive a voucher for equal value of original booking. Valid for 25 months.<br/><br/>
 
-• Customers may choose to reschedule their booking subject to availability, with 48 hours’<br/><br/>
-notice or take up our offer of a credit valid for 24 months.<br/><br/>
+• No shows will be charged full price.<br/><br/>
 
 Local conditions are to be assessed and determined by Sydney Water Bike Rentals staff.<br/><br/>
 

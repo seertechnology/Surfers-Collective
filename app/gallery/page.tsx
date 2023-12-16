@@ -77,7 +77,7 @@ export default function HomePage() {
           {/* <div className='container'> */}
             <nav className={mobileNav ? "navbar navbar-expand-xl navbar-dark  p-4" : "navbar navbar-expand-xl navbar-dark p-4"} style={mobileNav ? {backgroundColor: '#116C89'} : {backgroundColor: ''}}>
             <Link className="navbar-brand" href="#">
-              <Image src={logoW} width={69} height={69} className={styles.topLogo} alt=""></Image>
+              <Image src={logoW} width={130} height={130} className={styles.topLogo} alt=""></Image>
             </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => mobileNav ? setMobileNav(false) : setMobileNav(true)}>
                     <span className="navbar-toggler-icon"></span>
@@ -119,7 +119,7 @@ export default function HomePage() {
             <div className={styles.navbarSection}>
               <nav className="navbar navbar-expand-lg navbar-dark">
                 <Link className="navbar-brand" href="#">
-                <Image src={logoW} width={69} height={69} className="d-inline-block align-top mt-4" alt=""></Image>
+                <Image src={logoW} width={130} height={130} className="d-inline-block align-top mt-4" alt=""></Image>
                 </Link>
                 
                 <ul className="navbar-nav ms-auto">
@@ -235,7 +235,7 @@ export default function HomePage() {
             <div className='col-md'>
               <div className='row'>
                 <div className='col-md-5'>
-                  <Image src={logoW} width={69} height={69} alt='approved-industries'/>
+                  <Image src={logoW} width={130} height={130} alt='approved-industries'/>
                 </div>
               </div>
               <div className='row-md'>

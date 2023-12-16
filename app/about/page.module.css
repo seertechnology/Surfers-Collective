@@ -1,7 +1,7 @@
 /* Font Imports */
 @font-face {
-  font-family: 'Alone On Earth';
-  src: url('../../assets/fonts/Alone\ On\ Earth.otf') format('opentype');
+  font-family: 'Bayon';
+  src: url('../../assets/fonts/Bayon/Bayon-Regular.ttf') format('opentype');
   font-weight: 400;
 }
 
@@ -25,11 +25,6 @@
   height: 500px;
 }
 
-.fontAlone On Earth {
-  font-family: 'Alone On Earth', sans-serif;
-  font-size: 100px;
-}
-
 .fontOs {
   font-family: 'American Typewriter', sans-serif;
   font-size: 100px;
@@ -39,7 +34,7 @@
 /* navbar section */
 .navbarSection {
   padding-top: 0px;
-  font-family: 'Alone On Earth', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 17px;
 }
 
@@ -56,7 +51,7 @@
 }
 
   .titleTitleText {
-    font-family: 'Alone On Earth', sans-serif;
+    font-family: 'Bayon', sans-serif;
     color: white;
     font-size: 65px;
     font-weight: 400;
@@ -76,7 +71,7 @@
     background-color: #2E5D6C;
     border: none;
     color: rgba(255, 255, 255 ,1);
-    font-family: 'Alone On Earth', sans-serif;
+    font-family: 'Bayon', sans-serif;
     font-size: 17px;
     margin-top: 7px;
 
@@ -93,7 +88,7 @@
   }
 
   .viewServicesButton {
-    font-family: 'Alone On Earth', sans-serif;
+    font-family: 'Bayon', sans-serif;
     font-size: 17px;
     margin-top: 10px;
     border: none;
@@ -110,7 +105,7 @@
 }
 
 .forgeTitle {
-  font-family: 'Alone On Earth', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 40px;
   line-height: 120%;
   color: #1A1A1A;
@@ -161,7 +156,7 @@
 }
 
   .servicesTitle {
-      font-family: 'Alone On Earth', sans-serif;
+      font-family: 'Bayon', sans-serif;
       color: #100B29;
       font-size: 40px;
       font-weight: 400;
@@ -174,7 +169,7 @@
   }
 
   .faqTitle {
-    font-family: 'Alone On Earth', sans-serif;
+    font-family: 'Bayon', sans-serif;
     color: #4e4e4e;
     font-size: 30px;
     margin-bottom: -20px;
@@ -185,7 +180,7 @@
     background-color: #0d4c61;
     border: none;
     color: rgba(255, 255, 255 ,1);
-    font-family: 'Alone On Earth', sans-serif;
+    font-family: 'Bayon', sans-serif;
     font-size: 17px;
     border-radius: 5px;
     width: 130px;
@@ -235,7 +230,7 @@
 }
 
 .ourServicesTitle {
-  font-family: 'Alone On Earth', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 40px;
   letter-spacing: 5%;
   color: rgba(255,255,255,1);
@@ -260,7 +255,7 @@
 }
 
 .includeTitle {
-  font-family: 'Alone On Earth', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 25px;
   line-height: 150%;
   letter-spacing: 20%;
@@ -342,7 +337,7 @@
   }
 
   .titleTitleText {
-    font-family: 'Alone On Earth', sans-serif;
+    font-family: 'Bayon', sans-serif;
     color: white;
     font-size: 45px;
     font-weight: 400;
