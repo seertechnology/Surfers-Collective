@@ -5,18 +5,6 @@
   font-weight: 400;
 }
 
-@font-face {
-  font-family: 'American Typewriter';
-  src: url('../../assets/fonts/ufonts.com_american-typewriter.ttf') format('truetype');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'American Typewriter';
-  src: url('../../assets/fonts/ufonts.com_american-typewriter-bold.ttf') format('truetype');
-  font-weight: 700;
-}
-
 .background {
   background-color: #116C89;
   background-repeat: no-repeat;
@@ -26,7 +14,7 @@
 }
 
 .fontOs {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 100px;
   font-weight: 700;
 }
@@ -39,7 +27,7 @@
 }
 
 .navbarLinks {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: white;
@@ -58,7 +46,7 @@
   }
 
   .titleSubText {
-    font-family: 'American Typewriter', sans-serif;
+    font-family: 'Bayon', sans-serif;
     color: rgba(255, 255, 255, 0.8);
     font-size: 17px;
     font-weight: 100;
@@ -112,7 +100,7 @@
 }
 
 .forgeSubTitle {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 18px;
   line-height: 150%;
   color: #1A1A1A;
@@ -123,14 +111,14 @@
 }
 
 .forgeBoxTitle {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 18px;
   line-height: 140%;
   color: #1A1A1A;
 }
 
 .forgeBoxText {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 18px;
   line-height: 150%;
   color: rgba(0, 0, 0, 0.6);
@@ -163,8 +151,9 @@
   }
 
   .servicesText {
-      font-family: 'American Typewriter', sans-serif;
+      font-family: 'Bayon', sans-serif;
       color: #100B29;
+      opacity: 65%;
       font-size: 18px;
   }
 
@@ -238,7 +227,7 @@
 }
 
 .ourServicesSubTitle {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 18px;
   line-height: 150%;
   color: #8A8A8A;
@@ -246,7 +235,7 @@
 }
 
 .serviceImageTitle {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 18px;
   line-height: 150%;
   font-weight: bold;
@@ -265,7 +254,7 @@
 }
 
 .includeText {
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'Bayon', sans-serif;
   font-size: 19px;
   line-height: 210%;
   color: rgba(255,255,255,0.8);
@@ -277,35 +266,36 @@
 
 .footerSection {
   background-color: #1C363F;
-  font-family: 'American Typewriter', sans-serif;
+  font-family: 'Bayon', sans-serif;
   padding: 15px 0px 15px 0px;
 }
 
   .approvedIndustriesText {
-    font-family: 'American Typewriter', sans-serif;
+    font-family: 'Bayon', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.2);
   }
 
   .cr {
-    font-family: 'American Typewriter', sans-serif;
+    font-family: 'Bayon', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
   }
 
   .crs {
-    font-family: 'American Typewriter', sans-serif;
+    font-family: 'Bayon', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
+    opacity: 65%;
   }
 
   .hrl {
     border: 0.5px solid #ffffff;
   }
   .tnc {
-    font-family: 'American Typewriter', sans-serif;
+    font-family: 'Bayon', sans-serif;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
   }

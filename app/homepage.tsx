@@ -177,7 +177,7 @@ export default function HomePage() {
                   <div className='row'>
                     {/* Industry Expertise */}
                     <div className='col-md-1'>
-                      <Image src={number1} width={120} height={100} alt="number-1"/>
+                      <Image src={number1} width={130} height={110} alt="number-1"/>
                     </div>
                     <div className='col-md pt-2'>
                       <h5 className={styles.forgeBoxTitle}>Best Choice</h5>
@@ -186,7 +186,7 @@ export default function HomePage() {
 
                     {/* Flexibility and Accessibility */}
                     <div className='col-md-1'> 
-                        <Image src={number2} width={90} height={100} alt='number-2'/>
+                        <Image src={number2} width={140} height={120} alt='number-2'/>
                     </div>
                     <div className='col-md pt-2'>
                       <h5 className={styles.forgeBoxTitle}>Competitive Price</h5>
@@ -197,7 +197,7 @@ export default function HomePage() {
                       <div className='row'>
                         {/* Skilled Craftsmanship */}
                         <div className='col-md-1'> 
-                            <Image src={number3} width={100} height={100} alt='number-3'/>
+                            <Image src={number3} width={80} height={110} alt='number-3'/>
                         </div>
                         <div className='col-md pt-2'>
                           <h5 className={styles.forgeBoxTitle}>Refund and Reschedule</h5>

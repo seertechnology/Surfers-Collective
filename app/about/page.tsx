@@ -194,6 +194,10 @@ export default function HomePage() {
                   <p className={styles.servicesText} style={{textAlign:"center"}}><br/>
                   No, our bikes are surprisingly dry, so swimwear is optional. We do recommend it though, as you may want to cool off while exploring especially in Summer.
                   </p>
+                  <p className={styles.faqTitle} style={{textAlign:"center"}}>Can anyone do this?</p>
+                  <p className={styles.servicesText} style={{textAlign:"center"}}><br/>
+                  Yes, they can! Water bikes are easier to ride than their land-based cousins. Also, we have different sizes for different sized people.
+                  </p>
                 </div>
               </div>
             </div>
