@@ -177,7 +177,9 @@ export default function HomePage() {
         {/*  */}
 
       </div>
-      <h1>Coming Soon!</h1>
+      <div className={styles.comingSoon}>
+        <h1 style={{textAlign: "center", paddingTop: "50px"}}>Coming Soon!</h1>
+      </div>
       {/* <BookFeatures /> */}
 
       {/* footer - Start */}
