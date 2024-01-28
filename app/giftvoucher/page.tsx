@@ -109,76 +109,78 @@ export default function HomePage() {
               </div>
             </div>
           {/* end mobile menu */}
-
-        
-        <div className='container'>
-          {/* nav */}      
-          
-        {/* nav */}
-          <div className='row'>
-            <div className={styles.desktopNav}>
-            <div className={styles.navbarSection}>
-              <nav className="navbar navbar-expand-lg navbar-dark">
-                <Link className="navbar-brand" href="#">
-                <Image src={logo} width={130} height={130} className="d-inline-block align-top mt-4" alt=""></Image>
-                </Link>
-                
-                <ul className="navbar-nav ms-auto">
-                    <li className="nav-item">
-                      <Link href="/" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>Home</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/about" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>About</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/gallery" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gallery</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/book" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Book Now</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/giftvoucher" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gift Voucher</Link>
-                    </li>
-                </ul>
-                  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon"></span>
-                  </button>
-                  <div className="collapse navbar-collapse  " id="navbarSupportedContent">
-                      <ul className="navbar-nav ms-auto">
-                          <li className="nav-item mx-2">
-                            <Link href='/contactus'><button type='button' className={styles.viewServicesButton}>Contact Us &#160; </button></Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link href='/book'><button type='button' className={styles.contactUsButton}>Book Now</button></Link>
-                          </li>
-                      </ul>
+          <div id="containers" style={mobileNav ? {display: "none"} : {}}>
+            <div className='container'>
+              {/* nav */}      
+              
+            {/* nav */}
+              <div className='row'>
+                <div className={styles.desktopNav}>
+                <div className={styles.navbarSection}>
+                  <nav className="navbar navbar-expand-lg navbar-dark">
+                    <Link className="navbar-brand" href="#">
+                    <Image src={logo} width={130} height={130} className="d-inline-block align-top mt-4" alt=""></Image>
+                    </Link>
+                    
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                          <Link href="/" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>Home</Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link href="/about" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>About</Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link href="/gallery" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gallery</Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link href="/book" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Book Now</Link>
+                        </li>
+                        <li className="nav-item">
+                          <Link href="/giftvoucher" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gift Voucher</Link>
+                        </li>
+                    </ul>
+                      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span className="navbar-toggler-icon"></span>
+                      </button>
+                      <div className="collapse navbar-collapse  " id="navbarSupportedContent">
+                          <ul className="navbar-nav ms-auto">
+                              <li className="nav-item mx-2">
+                                <Link href='/contactus'><button type='button' className={styles.viewServicesButton}>Contact Us &#160; </button></Link>
+                              </li>
+                              <li className="nav-item">
+                                <Link href='/book'><button type='button' className={styles.contactUsButton}>Book Now</button></Link>
+                              </li>
+                          </ul>
+                      </div>
+                    </nav>
                   </div>
-                </nav>
+                </div>
+                {/* <div className='col'> */}
+                {/* <Image src={logo} width={233.76} height={64.11} alt='logo'/> */}
+
+                {/* </div> */}
+                {/* <div className='col-7'> */}
+                  
+                {/* </div> */}
+              </div>
+              <div className='row'>
+                <div className='col-md'>
+                <div className={styles.titleSection}>
+              <h1 className={styles.titleTitleText}>Gift Voucher</h1>          
+            </div>
+                </div>
+                <div className='col'></div>
               </div>
             </div>
-            {/* <div className='col'> */}
-            {/* <Image src={logo} width={233.76} height={64.11} alt='logo'/> */}
-
-            {/* </div> */}
-            {/* <div className='col-7'> */}
-              
-            {/* </div> */}
           </div>
-          <div className='row'>
-            <div className='col-md'>
-            <div className={styles.titleSection}>
-          <h1 className={styles.titleTitleText}>Gift Voucher</h1>          
-        </div>
-            </div>
-            <div className='col'></div>
-          </div>
-        </div>
         
         {/* Title Section - End */}
 
         {/*  */}
 
       </div>
+      <div id="containers" style={mobileNav ? {display: "none"} : {}}>
+      <div>
       <GiftFeature />
 
       {/* footer - Start */}
@@ -243,8 +245,9 @@ water biking adventure.</p>
           </div>
         </div>
       </div>
+      </div>
       {/* footer - End */}
-
+      </div>
     </main>
     </>
   )

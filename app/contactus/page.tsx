@@ -305,62 +305,63 @@ export default function HomePage() {
             </div>
           {/* end mobile menu */}
 
-        
-        <div className='container'>
-          {/* nav */}
+        <div id="containers" style={mobileNav ? {display: "none"} : {}}>
+          <div className='container'>
+            {/* nav */}
 
-      
-          
-        {/* nav */}
-          <div className='row'>
-            <div className={styles.desktopNav}>
-            <div className={styles.navbarSection}>
-              <nav className="navbar navbar-expand-lg navbar-dark">
-                <Link className="navbar-brand" href="#">
-                <Image src={logo} width={130} height={130} className="d-inline-block align-top mt-4" alt=""></Image>
-                </Link>
-                
-                <ul className="navbar-nav ms-auto">
-                    <li className="nav-item">
-                      <Link href="/" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>Home</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/about" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>About</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/gallery" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gallery</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/book" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Book Now</Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link href="/giftvoucher" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gift Voucher</Link>
-                    </li>
-                </ul>
-                  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon"></span>
-                  </button>
-                  <div className="collapse navbar-collapse  " id="navbarSupportedContent">
-                      <ul className="navbar-nav ms-auto">
-                          <li className="nav-item mx-2">
-                            <Link href='/contactus'><button type='button' className={styles.viewServicesButton}>Contact Us &#160; </button></Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link href='/book'><button type='button' className={styles.contactUsButton}>Book Now</button></Link>
-                          </li>
-                      </ul>
-                  </div>
-                </nav>
+        
+            
+          {/* nav */}
+            <div className='row'>
+              <div className={styles.desktopNav}>
+              <div className={styles.navbarSection}>
+                <nav className="navbar navbar-expand-lg navbar-dark">
+                  <Link className="navbar-brand" href="#">
+                  <Image src={logo} width={130} height={130} className="d-inline-block align-top mt-4" alt=""></Image>
+                  </Link>
+                  
+                  <ul className="navbar-nav ms-auto">
+                      <li className="nav-item">
+                        <Link href="/" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>Home</Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/about" className='nav-link active text-white font-weight-bold m-4 pt-4' aria-current='page'>About</Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/gallery" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gallery</Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/book" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Book Now</Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link href="/giftvoucher" className='nav-link text-white font-weight-bold m-4 pt-4' aria-current='page'>Gift Voucher</Link>
+                      </li>
+                  </ul>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse  " id="navbarSupportedContent">
+                        <ul className="navbar-nav ms-auto">
+                            <li className="nav-item mx-2">
+                              <Link href='/contactus'><button type='button' className={styles.viewServicesButton}>Contact Us &#160; </button></Link>
+                            </li>
+                            <li className="nav-item">
+                              <Link href='/book'><button type='button' className={styles.contactUsButton}>Book Now</button></Link>
+                            </li>
+                        </ul>
+                    </div>
+                  </nav>
+                </div>
               </div>
             </div>
+            <div className='row'>
+              <div className='col-md'>
+              <div className={styles.titleSection}>
+            <h1 className={styles.titleTitleText}>Contact Us</h1>          
           </div>
-          <div className='row'>
-            <div className='col-md'>
-            <div className={styles.titleSection}>
-          <h1 className={styles.titleTitleText}>Contact Us</h1>          
-        </div>
+              </div>
+              <div className='col'></div>
             </div>
-            <div className='col'></div>
           </div>
         </div>
         
@@ -370,138 +371,140 @@ export default function HomePage() {
 
       </div>
 
+      <div id="containers" style={mobileNav ? {display: "none"} : {}}>
       {/* third section "Contact us..." - Start */}
-      <div  id="contactUs" className={styles.contactUsSection}>
-        <div className='container'>
-          <div className='row'>
-            <h3 className={styles.contactTitle}>SERVICES CONTACT</h3>
-            <h2 className={styles.contactSubTitle}>Contact Us</h2>
-          </div>
-          <div className='row'>
-            <div className='col-md'>
-              {/* form - start */}
-              <div className={styles.formSection1}>
-                <form className="row g-3" onSubmit={submitForm}> 
-                  <div className="col-md-6">
-                    <input type="text" placeholder='Full Name' className="form-control rounded-1 mb-2" id="inputName" value={name} onChange={(e) => setName(e.target.value)} required/>
-                  </div>
-                  <div className="col-md-6">
-                    <input type="email" placeholder='Email Address' className="form-control rounded-1 mb-2" id="inputEmail"  value={email} onChange={(e) => setEmail(e.target.value)} required/>
-                  </div>
-                  <div className="col-md-6">
-                    <input type="phone" placeholder='Phone Number' className="form-control rounded-1  mb-2" id="inputPhone"  value={phone} onChange={(e) => setPhone(e.target.value)} required/>
-                  </div>
-                  <div className="col-md-6">
-                  <select id="inputService" className="form-select rounded-1  mb-2" value={service} onChange={(e) => {setService(e.target.value); console.log(service)}} required>
-                    <option>Enquiry Type</option>
-                    <option>General</option>
-                    <option>Order</option>
-                  </select>
-                  </div>
-                  <div className="col-md-12">
-                    <textarea className="form-control rounded-1  mb-2" placeholder='Message' id="inputMessage" rows={3}  value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
-                  </div>
-                  <div className='col-md-12 mb-2'>
-                      <input type="checkbox" className="form-check-input mx-1" id="exampleCheck1" required/>
-                    <label className="form-check-label" htmlFor="exampleCheck1">I agree that the data I submit will be collected and stored.</label>
-                  </div>
-                  <div className="col-12">
-                    <button type="submit" className={!sent ? styles.submitButton : styles.submitButtonSent} disabled={loading || sent}>{loading ? "Sending..." : sent ? "Sent" : "Submit"}</button>
-                  </div>
-                  <div>
-                    <p className={sent? 'text-success' : 'text-danger'}>{sent ? "Your request has been sent" : alert}</p>
-                  </div>
-                </form>
-              </div>
-              {/* form -end */}
+        <div  id="contactUs" className={styles.contactUsSection}>
+          <div className='container'>
+            <div className='row'>
+              <h3 className={styles.contactTitle}>SERVICES CONTACT</h3>
+              <h2 className={styles.contactSubTitle}>Contact Us</h2>
             </div>
+            <div className='row'>
+              <div className='col-md'>
+                {/* form - start */}
+                <div className={styles.formSection1}>
+                  <form className="row g-3" onSubmit={submitForm}> 
+                    <div className="col-md-6">
+                      <input type="text" placeholder='Full Name' className="form-control rounded-1 mb-2" id="inputName" value={name} onChange={(e) => setName(e.target.value)} required/>
+                    </div>
+                    <div className="col-md-6">
+                      <input type="email" placeholder='Email Address' className="form-control rounded-1 mb-2" id="inputEmail"  value={email} onChange={(e) => setEmail(e.target.value)} required/>
+                    </div>
+                    <div className="col-md-6">
+                      <input type="phone" placeholder='Phone Number' className="form-control rounded-1  mb-2" id="inputPhone"  value={phone} onChange={(e) => setPhone(e.target.value)} required/>
+                    </div>
+                    <div className="col-md-6">
+                    <select id="inputService" className="form-select rounded-1  mb-2" value={service} onChange={(e) => {setService(e.target.value); console.log(service)}} required>
+                      <option>Enquiry Type</option>
+                      <option>General</option>
+                      <option>Order</option>
+                    </select>
+                    </div>
+                    <div className="col-md-12">
+                      <textarea className="form-control rounded-1  mb-2" placeholder='Message' id="inputMessage" rows={3}  value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+                    </div>
+                    <div className='col-md-12 mb-2'>
+                        <input type="checkbox" className="form-check-input mx-1" id="exampleCheck1" required/>
+                      <label className="form-check-label" htmlFor="exampleCheck1">I agree that the data I submit will be collected and stored.</label>
+                    </div>
+                    <div className="col-12">
+                      <button type="submit" className={!sent ? styles.submitButton : styles.submitButtonSent} disabled={loading || sent}>{loading ? "Sending..." : sent ? "Sent" : "Submit"}</button>
+                    </div>
+                    <div>
+                      <p className={sent? 'text-success' : 'text-danger'}>{sent ? "Your request has been sent" : alert}</p>
+                    </div>
+                  </form>
+                </div>
+                {/* form -end */}
+              </div>
 
-            {/* services contact section 2 - start */}
-              {/* <div id="contact" ref={pushRef} className={isOnScreen.includes("contact") ? 'col-md animate__animated animate__fadeIn' : 'col-md animate__animated animate__fadeOut'}>
-              <div className={styles.formSection2}>
-                <div className='row'></div>
-                  <h5 className={styles.contactDetailTitle}>High Quality Results</h5>
-                  <p className={styles.contactDetailText}>Industry trained that can meet and exceed your requirements</p>
-                <div className='row'>
-                  <h5 className={styles.contactDetailTitle}>Extensive Experience</h5>
-                  <p className={styles.contactDetailText}>With over 25 years industry experience we deliver exceptional service across Sydney</p>
-                </div>  
-                <div className='row'>
-                  <h5 className={styles.contactDetailTitle}>Reliable Service</h5>
-                  <p className={styles.contactDetailText}>Available 7 days a week</p>
+              {/* services contact section 2 - start */}
+                {/* <div id="contact" ref={pushRef} className={isOnScreen.includes("contact") ? 'col-md animate__animated animate__fadeIn' : 'col-md animate__animated animate__fadeOut'}>
+                <div className={styles.formSection2}>
+                  <div className='row'></div>
+                    <h5 className={styles.contactDetailTitle}>High Quality Results</h5>
+                    <p className={styles.contactDetailText}>Industry trained that can meet and exceed your requirements</p>
+                  <div className='row'>
+                    <h5 className={styles.contactDetailTitle}>Extensive Experience</h5>
+                    <p className={styles.contactDetailText}>With over 25 years industry experience we deliver exceptional service across Sydney</p>
+                  </div>  
+                  <div className='row'>
+                    <h5 className={styles.contactDetailTitle}>Reliable Service</h5>
+                    <p className={styles.contactDetailText}>Available 7 days a week</p>
+                  </div>
                 </div>
-              </div>
-            </div> */}
-            {/* services contact section 2 - end */}
-          </div>
-        </div>
-      </div>
-
-      {/* third section "Contact us..." - End */}
-
-      {/* footer - Start */}
-      <div className={styles.footerSection}>
-        <div className='container pt-3'>
-          <div className='row  text-center'>
-            <div className='col-md'>
-              <div className='row'>
-                <div className='col-md-5'>
-                  <Image src={logoW} width={130} height={130} alt='approved-industries'/>
-                </div>
-              </div>
-              <div className='row-md'>
-                <div className='col-md-5'>
-                  <p className='footer-text text-white'>Sydney Water Bike Rentals. Your gateway to a
-water biking adventure.</p>
-                </div>
-              </div>
-            </div>
-            <div className='col-md'>
-              <div className='row'>
-                <div className='col-md py-3'>
-                  <p className={styles.cr}>Links</p>
-                  <Link href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Home</p></Link>
-                  <Link href='/gallery' style={{textDecoration: 'none'}}><p className={styles.crs}>Gallery</p></Link>
-                  <Link href='/book' style={{textDecoration: 'none'}}><p className={styles.crs}>Book Now</p></Link>
-                  <Link href='/giftvoucher' style={{textDecoration: 'none'}}><p className={styles.crs}>Gift Voucher</p></Link>
-                </div>
-                <div className='col-md py-3'>
-                  <p className={styles.cr}>Contact Us</p>
-                  <Link href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Contact Us</p></Link>
-                </div>
-                <div className='col-md py-3'>
-                  <p className={styles.cr}>Follow Us</p>
-                  <p className={styles.crs}>Facebook</p>
-                  <p className={styles.crs}>Instagram</p>
-                  <p className={styles.crs}>Twitter</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr className={styles.hrl}/>
-          <div className='row'>
-            <div className='col-md  text-center'>
-                    <p className={styles.crs}>2023 Sydney Water Bike Rentals. All right reserved.</p>
-            </div>
-            <div className='col-md'>
-            </div>
-            <div className='col-md'>
-              <div className='row  text-center'>
-                <div className='col-md'>
-                  <p className={styles.crs}><u>Privacy Policy</u></p>
-                </div>
-                <div className='col-md'>
-                  <p className={styles.crs}><u>Terms of Service</u></p>
-                </div>
-                <div className='col-md'>
-                  <p className={styles.crs}><u>Cookies Settings</u></p>
-                </div>
-              </div>
+              </div> */}
+              {/* services contact section 2 - end */}
             </div>
           </div>
         </div>
+
+        {/* third section "Contact us..." - End */}
+
+        {/* footer - Start */}
+        <div className={styles.footerSection}>
+          <div className='container pt-3'>
+            <div className='row  text-center'>
+              <div className='col-md'>
+                <div className='row'>
+                  <div className='col-md-5'>
+                    <Image src={logoW} width={130} height={130} alt='approved-industries'/>
+                  </div>
+                </div>
+                <div className='row-md'>
+                  <div className='col-md-5'>
+                    <p className='footer-text text-white'>Sydney Water Bike Rentals. Your gateway to a
+  water biking adventure.</p>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md'>
+                <div className='row'>
+                  <div className='col-md py-3'>
+                    <p className={styles.cr}>Links</p>
+                    <Link href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Home</p></Link>
+                    <Link href='/gallery' style={{textDecoration: 'none'}}><p className={styles.crs}>Gallery</p></Link>
+                    <Link href='/book' style={{textDecoration: 'none'}}><p className={styles.crs}>Book Now</p></Link>
+                    <Link href='/giftvoucher' style={{textDecoration: 'none'}}><p className={styles.crs}>Gift Voucher</p></Link>
+                  </div>
+                  <div className='col-md py-3'>
+                    <p className={styles.cr}>Contact Us</p>
+                    <Link href='/' style={{textDecoration: 'none'}}><p className={styles.crs}>Contact Us</p></Link>
+                  </div>
+                  <div className='col-md py-3'>
+                    <p className={styles.cr}>Follow Us</p>
+                    <p className={styles.crs}>Facebook</p>
+                    <p className={styles.crs}>Instagram</p>
+                    <p className={styles.crs}>Twitter</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr className={styles.hrl}/>
+            <div className='row'>
+              <div className='col-md  text-center'>
+                      <p className={styles.crs}>2023 Sydney Water Bike Rentals. All right reserved.</p>
+              </div>
+              <div className='col-md'>
+              </div>
+              <div className='col-md'>
+                <div className='row  text-center'>
+                  <div className='col-md'>
+                    <p className={styles.crs}><u>Privacy Policy</u></p>
+                  </div>
+                  <div className='col-md'>
+                    <p className={styles.crs}><u>Terms of Service</u></p>
+                  </div>
+                  <div className='col-md'>
+                    <p className={styles.crs}><u>Cookies Settings</u></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* footer - End */}
       </div>
-      {/* footer - End */}
 
     </main>
     </>
