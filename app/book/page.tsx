@@ -75,6 +75,8 @@ export default function HomePage() {
         {/* Title Section - Start */}
 
         {/* Navbar Section - Start */}
+
+        {/* Mobile Menu - Start */}
         <div className={styles.mobileNav}>
         <div className={styles.navbarSection}>
           {/* <div className='container'> */}
@@ -110,7 +112,7 @@ export default function HomePage() {
                 </nav>
               </div>
             </div>
-          {/* end mobile menu */}
+          {/* Mobile Menu - End */}
 
         <div id="containers" style={mobileNav ? {display: "none"} : {}}>
           <div className='container'>
