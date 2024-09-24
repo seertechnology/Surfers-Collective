@@ -13,51 +13,43 @@ export default function HeadSection() {
 
   return (
     <>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        />
-      </Head>
+    <Head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossOrigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    </Head>
 
-      <Script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossOrigin="anonymous"
-        id='1'
-      />
+    <Script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      strategy="beforeInteractive"
+    />
+    <Script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossOrigin="anonymous"
+      strategy="afterInteractive"
+    />
 
-      <Script id='fbpScript' strategy="lazyOnload">
-        
-        {`
-          !function(f,b,e,v,n,t,s){
-            if(f.fbq)return;
-            n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)
-          }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '1555678621836510');
-          fbq('track', 'PageView');
-        `}
-      </Script>
-      <noscript>
-        <img
-          id='1'
-          height="1"
-          width="1"
-          style={{ display: 'none' }}
-          src="https://www.facebook.com/tr?id=1555678621836510&ev=PageView&noscript=1"
-        />
-      </noscript>
-    </>
+    <Script id='modalInit' strategy="lazyOnload">
+      {`
+        $(document).ready(function() {
+          $('#contactModule').appendTo('body');
+        });
+      `}
+      {`
+        $(document).ready(function() {
+          $('#bookModule').appendTo('body');
+        });
+      `}
+    </Script>
+  </>
   )
 }

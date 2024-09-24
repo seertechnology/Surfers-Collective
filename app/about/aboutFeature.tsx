@@ -6,9 +6,9 @@ import styles from './page.module.css'
 import { useEffect, useRef, useState } from 'react'
 
 // Logo
-import singleImage from '../../assets/images/about/images/1.png'
-import coupleImage from '../../assets/images/about/images/2.png'
-import familyImage from '../../assets/images/about/images/3.png'
+import about1 from '../../assets/images/about/images/1.png'
+import about2 from '../../assets/images/about/images/2.png'
+import about3 from '../../assets/images/about/images/3.png'
 
 
 export default function AboutFeature() {
@@ -38,18 +38,16 @@ export default function AboutFeature() {
               <div className='row pt-5 pb-5'>
                 <div className='col-xl-6'>
                   <h1 className={styles.servicesTitle} style={{textAlign:"center"}}>Experience the unthinkable!</h1>
-                  <Image src={singleImage} width={450} height={450} className={styles.sectionImage} alt="" style={{maxWidth: "100%", display: "block", marginLeft: "auto", marginRight: "auto"}}></Image>
+                  <Image src={about1} width={522} height={300} className={styles.sectionImage} alt="" style={{maxWidth: "90%", display: "block", marginLeft: "auto", marginRight: "auto"}}></Image>
                 </div>
                 <div className='col-xl-6'>
-                  <p className={styles.servicesText} style={{textAlign:"center"}}><br/>Our Schiller water bikes are the ultimate mix of water sports and cycling, allowing an easy, fun and safe way to experience a day out on the water in an eco-friendly manner requiring no skill or prior training making it perfect for all ages!<br/><br/>
+                  <p className={styles.servicesText} style={{textAlign:"center"}}><br/>Immerse yourself in the thrill of surfing with our premium surfboard rentals, where excitement meets ease and fun. Our boards are perfect for all skill levels, offering a safe and eco-friendly way to enjoy a fantastic day on the water!<br/><br/>
 
-Schiller water bike is the most advanced of its kind in the world. There is no better way to escape the busy crowds whether it’s sightseeing you have in mind, or simply wanting to discover your own secluded beach to laze the day away. Also, a great alternative for the cycling enthusiasts who would prefer weaving through moorings as opposed to the notorious Sydney traffic!<br/><br/>
+Crafted for performance and comfort, our surfboards represent the best San Francisco has to offer. With their sleek design and advanced technology, you’ll feel confident riding the waves. Escape the busy city life and dive into the stunning beauty of our coastline. Whether you're aiming to catch some exhilarating waves or simply want to relax on a hidden beach, our rentals provide the perfect opportunity to enjoy the best of the Bay Area.<br/><br/>
 
-We offer rentals on Pittwater and Middle Harbour. Both locations offer stunningly beautiful waterways that include breathtaking national parks, prize-winning waterfront houses and golden beaches to laze the day away on.<br/><br/>
+We offer rentals at top surf locations throughout San Francisco, each featuring breathtaking views, golden beaches, and a vibrant coastal atmosphere. Experience iconic spots where the waves roll in, framed by the majestic backdrop of the city.<br/><br/>
 
-A self-guided tour on one of our Schiller water bikes will provide you with the freedom and opportunity to experience a bit of each.<br/><br/>
-We will be offering self guided rentals on Pittwater and Middle Harbour as well as various other locations throughout the region, TBC.<br/><br/>
-Gift vouchers also available.<br/><br/></p>
+A self-guided surfing adventure gives you the freedom to explore at your own pace, whether you’re a seasoned pro or a first-time surfer. With our expert tips and local knowledge, you'll be ready to make the most of your day on the water. <br/><br/></p>
                 </div>
               </div>
             </div>
@@ -60,23 +58,23 @@ Gift vouchers also available.<br/><br/></p>
           <div className={styles.weldingBg} ref={pushRef}>
             <div className='container'>
               <div className='row pt-5 pb-5'>
-                <div className='col-xl-6'>
+                <div className='col-xl-6 text-center'>
                 <h1 className={styles.servicesTitle} style={{textAlign:"center"}}>Cancellation Policy</h1>
-                    <Image src={coupleImage} width={536} height={405} className={styles.sectionImage} alt="" style={{maxWidth: "100%", display: "block", marginLeft: "auto", marginRight: "auto"}}></Image>
+                    <Image src={about2} width={536} height={350} className={styles.sectionImage} alt="" style={{maxWidth: "90%"}}></Image>
                 </div>
-                <div className='col-xl-6'>
+                <div className='col-xl-6 justify-content-center justify-content-center align-items-center mx-auto'>
                   <div >
-                      
                       <p className={styles.servicesText} style={{textAlign:"center"}}><br/>
-• Full refund applies for cancellations up to 48 hours prior to scheduled rental time..<br/><br/>
+                      We want you to have the best experience possible with our surfboard rentals. If your plans change, we’ve made our cancellation policy straightforward:<br/><br/>
 
-• Cancellations within 48 hours of scheduled rental time will receive a voucher for equal value of original booking. Valid for 25 months.<br/><br/>
+                      Cancellation Notifications: If you need to cancel or modify your reservation, please contact us at least 24 hours before your scheduled rental time.<br/><br/>
 
-• No shows will be charged full price.<br/><br/>
+                      Full Refunds: Cancellations made more than 24 hours in advance will receive a full refund.<br/><br/>
 
-Local conditions are to be assessed and determined by Sydney Water Bike Rentals staff.<br/><br/>
+                      Late Cancellations: Cancellations made less than 24 hours before your rental time may incur a cancellation fee, or you may receive a partial refund.<br/><br/>
 
-In the event of unsafe weather forecast, we will offer a full refund, reschedule or credit.<br/><br/></p>
+                      We appreciate your understanding and look forward to providing you with an unforgettable experience!<br/><br/>
+                      </p>
                   </div>
                 </div>
               </div>
@@ -90,17 +88,15 @@ In the event of unsafe weather forecast, we will offer a full refund, reschedule
               <div className='row pt-5  pb-5'>
                 <div className='col-xl-6'>
                   <h1 className={styles.servicesTitle} style={{textAlign:"center"}}>Additional Information</h1>
-                  <Image src={familyImage} width={548} height={330} className={styles.sectionImage} alt="" style={{maxWidth: "100%", display: "block", marginLeft: "auto", marginRight: "auto"}}></Image>
+                  <Image src={about3} width={548} height={250} className={styles.sectionImage} alt="" style={{maxWidth: "90%", display: "block", marginLeft: "auto", marginRight: "auto"}}></Image>
                 </div>
                 <div className='col-xl-6'>
-                  <p className={styles.servicesText} style={{textAlign:"center"}}><br/>Please arrive 15 minutes prior to your booking to complete any last-minute details.<br/><br/>
+                  <p className={styles.servicesText} style={{textAlign:"center"}}><br/>Rental Duration - Our surfboards are available for half-day and full-day rentals. Please specify your preferred duration when booking.<br/><br/>
 
-Don’t forget to bring anything you may need for a day on the water:<br/><br/>
-– Hat                          <br/><br/>
-– Sunnies                  <br/><br/>
-– Sunscreen<br/><br/>
-– Towel<br/><br/>
-– Water<br/><br/><br/><br/></p>
+                    Age Requirements - All renters must be at least 18 years old. Minors may rent with parental consent and supervision.<br/><br/>
+                    Safety Gear - We provide optional safety gear, including leashes and rash guards, to enhance your surfing experience. Please ask our staff if you need any additional equipment.<br/><br/>
+                    Local Knowledge: Our team is happy to share tips on the best surf spots and conditions.
+                  </p>
                 </div>
               </div>
             </div>
@@ -117,20 +113,18 @@ Don’t forget to bring anything you may need for a day on the water:<br/><br/>
             <div className='container'>
               <div className='row pt-5 pb-5'>
                 <div className='col-md-6'>
-                  <Image src={singleImage} width={550} height={550} className={styles.sectionImage} alt=""></Image>
+                  <Image src={about1} width={522} height={550} className={styles.sectionImage} alt=""></Image>
                 </div>
                 <div className='col-sm-6'>
                   <div >
-                      <h1 className={styles.servicesTitle}>Experience the unthinkable!</h1>
-                      <p className={styles.servicesText}><br/>Our Schiller water bikes are the ultimate mix of water sports and cycling, allowing an easy, fun and safe way to experience a day out on the water in an eco-friendly manner requiring no skill or prior training making it perfect for all ages!<br/><br/>
+                      <h1 className={styles.servicesTitle}>Discover the extraordinary!</h1>
+                      <p className={styles.servicesText}><br/>Immerse yourself in the thrill of surfing with our premium surfboard rentals, where excitement meets ease and fun. Our boards are perfect for all skill levels, offering a safe and eco-friendly way to enjoy a fantastic day on the water!<br/><br/>
 
-Schiller water bike is the most advanced of its kind in the world. There is no better way to escape the busy crowds whether it’s sightseeing you have in mind, or simply wanting to discover your own secluded beach to laze the day away. Also, a great alternative for the cycling enthusiasts who would prefer weaving through moorings as opposed to the notorious Sydney traffic!<br/><br/>
+                      Crafted for performance and comfort, our surfboards represent the best San Francisco has to offer. With their sleek design and advanced technology, you’ll feel confident riding the waves. Escape the busy city life and dive into the stunning beauty of our coastline. Whether you're aiming to catch some exhilarating waves or simply want to relax on a hidden beach, our rentals provide the perfect opportunity to enjoy the best of the Bay Area.<br/><br/>
 
-We offer rentals on Pittwater and Middle Harbour. Both locations offer stunningly beautiful waterways that include breathtaking national parks, prize-winning waterfront houses and golden beaches to laze the day away on.<br/><br/>
+                      We offer rentals at top surf locations throughout San Francisco, each featuring breathtaking views, golden beaches, and a vibrant coastal atmosphere. Experience iconic spots where the waves roll in, framed by the majestic backdrop of the city.<br/><br/>
 
-A self-guided tour on one of our Schiller water bikes will provide you with the freedom and opportunity to experience a bit of each.<br/><br/>
-We will be offering self guided rentals on Pittwater and Middle Harbour as well as various other locations throughout the region, TBC.<br/><br/>
-Gift vouchers also available.<br/><br/></p>
+                      A self-guided surfing adventure gives you the freedom to explore at your own pace, whether you’re a seasoned pro or a first-time surfer. With our expert tips and local knowledge, you'll be ready to make the most of your day on the water. <br/><br/></p>
                   </div>
                 </div>
               </div>
@@ -146,19 +140,20 @@ Gift vouchers also available.<br/><br/></p>
                   <div >
                       <h1 className={styles.servicesTitle}>Cancellation Policy</h1>
                       <p className={styles.servicesText}><br/>
-• Full refund applies for cancellations up to 48 hours prior to scheduled rental time..<br/><br/>
+                      We want you to have the best experience possible with our surfboard rentals. If your plans change, we’ve made our cancellation policy straightforward:<br/><br/>
 
-• Cancellations within 48 hours of scheduled rental time will receive a voucher for equal value of original booking. Valid for 24 months.<br/><br/>
+                      Cancellation Notifications: If you need to cancel or modify your reservation, please contact us at least 24 hours before your scheduled rental time.<br/><br/>
 
-• No shows will be charged full price.<br/><br/>
+                      Full Refunds: Cancellations made more than 24 hours in advance will receive a full refund.<br/><br/>
 
-Local conditions are to be assessed and determined by Sydney Water Bike Rentals staff.<br/><br/>
+                      Late Cancellations: Cancellations made less than 24 hours before your rental time may incur a cancellation fee, or you may receive a partial refund.<br/><br/>
 
-In the event of unsafe weather forecast, we will offer a full refund, reschedule or credit.<br/><br/></p>
+                      We appreciate your understanding and look forward to providing you with an unforgettable experience!<br/><br/>
+                      </p>
                   </div>
                 </div>
                 <div className='col-md-6'>
-                  <Image src={coupleImage} width={585} height={436} className={styles.sectionImage} alt=""  style={{maxWidth: "100%"}}></Image>
+                  <Image src={about2} width={515} height={386} className={styles.sectionImage} alt=""  style={{maxWidth: "100%"}}></Image>
                 </div>
               </div>
             </div>
@@ -170,20 +165,17 @@ In the event of unsafe weather forecast, we will offer a full refund, reschedule
             <div className='container'>
               <div className='row pt-5  pb-5'>
                 <div className='col-md-6'>
-                  <Image src={familyImage} width={585} height={446} className={styles.sectionImage} alt="" style={{maxWidth: "100%"}}></Image>
+                  <Image src={about3} width={525} height={315} className={styles.sectionImage} alt="" style={{maxWidth: "100%"}}></Image>
                 </div>
                 <div className='col-md-6'>
                   <div >
                       <h1 className={styles.servicesTitle}>Additional Information</h1>
-                      <p className={styles.servicesText}><br/>Please arrive 15 minutes prior to your booking to complete any last-minute details.<br/><br/>
+                      <p className={styles.servicesText}><br/>Rental Duration - Our surfboards are available for half-day and full-day rentals. Please specify your preferred duration when booking.<br/><br/>
 
-Don’t forget to bring anything you may need for a day on the water:<br/><br/>
-– Hat                          <br/><br/>
-– Sunnies                  <br/><br/>
-– Sunscreen<br/><br/>
-– Towel<br/><br/>
-– Water<br/><br/>
-<br/><br/></p>
+                      Age Requirements - All renters must be at least 18 years old. Minors may rent with parental consent and supervision.<br/><br/>
+                      Safety Gear - We provide optional safety gear, including leashes and rash guards, to enhance your surfing experience. Please ask our staff if you need any additional equipment.<br/><br/>
+                      Local Knowledge: Our team is happy to share tips on the best surf spots and conditions.
+                      </p>
                   </div>
                 </div>
               </div>

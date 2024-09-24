@@ -10,6 +10,10 @@ import singleImage from '../../assets/images/Book/singleImage.png'
 import coupleImage from '../../assets/images/Book/coupleImage.png'
 import familyImage from '../../assets/images/Book/familyImage.png'
 
+import singleMobile from '../../assets/images/Book/singleMobile.png'
+import coupleMobile from '../../assets/images/Book/coupleMobile.png'
+import familyMobile from '../../assets/images/Book/familyMobile.png'
+
 
 export default function BookFeature() {
 
@@ -36,13 +40,13 @@ export default function BookFeature() {
           <div className={styles.weldingBg} ref={pushRef}>
             <div className='container'>
               <div className='row pt-5 pb-5'>
-                <div className='col-md-6'>
+                <div className='col-md-6 text-center'>
                   <h1 className={styles.servicesTitle} style={{textAlign:"center"}}>Single</h1>
-                  <Image src={singleImage} width={591} height={436} className={styles.sectionImage} alt="" style={{maxWidth: "90%"}}></Image>
+                  <Image src={singleMobile} width={279} height={200} className={styles.sectionImage} alt="" style={{maxWidth: "90%"}}></Image>
                 </div>
-                <div className='col-md-6'>
-                  <p className={styles.servicesText} style={{textAlign:"center"}}><br/>Experience the thrill of water biking with our single rental option! Our premium water bikes, designed for stability and ease of use, provide an exhilarating aquatic cycling adventure.<br/><br/> Equipped with safety gear and a detailed operational briefing, this rental is perfect for solo explorers seeking a unique and memorable outing.<br/><br/></p>
-                  <a href='https://www.picktime.com/c80a1779-c0f5-4957-86ce-1addfb902b99'><button type='button' className={styles.bookSectionButton} style={{width:"100%"}}>Book Now</button></a>
+                <div className='col-md-6 text-center'>
+                  <p className={styles.servicesText} style={{textAlign:"center", opacity: '0.63'}}><br/>Unleash your inner surfer with our individual surfboard rental option! Our high-performance boards are designed for stability and ease, providing an exciting way to tackle the waves.<br/><br/> Each rental comes with essential safety gear and a thorough orientation, making it perfect for solo riders eager for an unforgettable surfing experience. Get ready to catch some amazing waves in San Francisco!<br/><br/></p>
+                  <a data-bs-toggle="modal" data-bs-target="#bookModule" href=''><button type='button' className={styles.bookSectionButton} style={{width:"100%"}}>Book Now</button></a>
                 </div>
               </div>
             </div>
@@ -53,15 +57,14 @@ export default function BookFeature() {
           <div className={styles.weldingBg} ref={pushRef}>
             <div className='container'>
               <div className='row pt-5 pb-5'>
-                <div className='col-md-6'>
+                <div className='col-md-6 text-center'>
                 <h1 className={styles.servicesTitle} style={{textAlign:"center"}}>Couple</h1>
-                    <Image src={coupleImage} width={585} height={446} className={styles.sectionImage} alt="" style={{maxWidth: "90%"}}></Image>
+                    <Image src={coupleMobile} width={279} height={230} className={styles.sectionImage} alt="" style={{maxWidth: "90%"}}></Image>
                 </div>
-                <div className='col-md-6'>
+                <div className='col-md-6 text-center'>
                   <div >
-                      
-                      <p className={styles.servicesText} style={{textAlign:"center"}}><br/>Discover the romance of our couple water biking rental! Glide across the water&apos;s surface on our premium water bikes, designed for stability and an intimate aquatic adventure.<br/><br/> Each rental includes safety gear and a detailed operational briefing, tailored for couples seeking a unique shared experience.<br/><br/></p>
-                      <a href='https://www.picktime.com/c80a1779-c0f5-4957-86ce-1addfb902b99'><button type='button' className={styles.bookSectionButton} style={{width:"100%"}}>Book Now</button></a>
+                      <p className={styles.servicesText} style={{textAlign:"center", opacity: '0.63'}}><br/>Share an unforgettable experience with our couples’ surfboard rental! Ride the waves together on our high-quality surfboards, designed for stability and ease, making it a perfect choice for partners.<br/><br/>Each rental includes essential safety gear and a personalized orientation, ensuring you both feel confident and ready to enjoy the ocean. Dive into the adventure and make special memories in the vibrant waters of San Francisco!<br/><br/></p>
+                      <a data-bs-toggle="modal" data-bs-target="#bookModule" ><button type='button' className={styles.bookSectionButton} style={{width:"100%"}}>Book Now</button></a>
                   </div>
                 </div>
               </div>
@@ -73,13 +76,13 @@ export default function BookFeature() {
           <div className={styles.weldingBg} ref={pushRef}>
             <div className='container'>
               <div className='row pt-5  pb-5'>
-                <div className='col-md-6'>
+                <div className='col-md-6 text-center'>
                   <h1 className={styles.servicesTitle} style={{textAlign:"center"}}>Family</h1>
-                  <Image src={familyImage} width={585} height={446} className={styles.sectionImage} alt="" style={{maxWidth: "90%"}}></Image>
+                  <Image src={familyMobile} width={279} height={261} className={styles.sectionImage} alt="" style={{maxWidth: "90%"}}></Image>
                 </div>
-                <div className='col-md-6'>
-                  <p className={styles.servicesText} style={{textAlign:"center"}}><br/>Experience the joy of our family water biking rental! Ride our premium water bikes, crafted for stability and excitement on the water, creating an ideal adventure for all ages.<br/><br/> Each rental package includes safety gear and a comprehensive operational briefing, perfect for families seeking an extraordinary shared outing.<br/><br/></p>
-                  <a href='https://www.picktime.com/c80a1779-c0f5-4957-86ce-1addfb902b99'><button type='button' className={styles.bookSectionButton} style={{width:"100%"}}>Book Now</button></a>
+                <div className='col-md-6 text-center'>
+                  <p className={styles.servicesText} style={{textAlign:"center", opacity: '0.63'}}><br/>Dive into the fun with our family surfboard rental! Our top-quality boards are designed for stability and excitement, making it the perfect choice for all ages to ride the waves together.<br/><br/>Each rental package includes essential safety gear and a thorough orientation, ensuring your family has a safe and unforgettable day on the water. Make lasting memories as you surf the stunning coastline of San Francisco!<br/><br/></p>
+                  <a data-bs-toggle="modal" data-bs-target="#bookModule" ><button type='button' className={styles.bookSectionButton} style={{width:"100%"}}>Book Now</button></a>
                 </div>
               </div>
             </div>
@@ -96,13 +99,13 @@ export default function BookFeature() {
             <div className='container'>
               <div className='row pt-5 pb-5'>
                 <div className='col-md-6'>
-                  <Image src={singleImage} width={591} height={436} className={styles.sectionImage} alt=""></Image>
+                  <Image src={singleImage} width={549} height={446} className={styles.sectionImage} alt=""></Image>
                 </div>
                 <div className='col-md-6'>
                   <div >
                       <h1 className={styles.servicesTitle}>Single</h1>
-                      <p className={styles.servicesText}><br/>Experience the thrill of water biking with our single rental option! Our premium water bikes, designed for stability and ease of use, provide an exhilarating aquatic cycling adventure.<br/><br/> Equipped with safety gear and a detailed operational briefing, this rental is perfect for solo explorers seeking a unique and memorable outing.<br/><br/></p>
-                      <a href='https://www-31p.bookeo.com/bookeo/b_swdrfasdfa_start.html?ctlsrc2=AglzPbU2KwmHlv3F5OmwNOQEf6MKwtI8SbhzU%2Fm3Y5s%3D&src=02b'><button type='button' className={styles.bookSectionButton}>Book Now</button></a>
+                      <p className={styles.servicesText} style={{opacity: '0.63'}}><br/>Unleash your inner surfer with our individual surfboard rental option! Our high-performance boards are designed for stability and ease, providing an exciting way to tackle the waves.<br/><br/> Each rental comes with essential safety gear and a thorough orientation, making it perfect for solo riders eager for an unforgettable surfing experience. Get ready to catch some amazing waves in San Francisco!<br/><br/></p>
+                      <a data-bs-toggle="modal" data-bs-target="#bookModule" ><button type='button' className={styles.bookSectionButton} style={{width:"100%"}}>Book Now</button></a>
                   </div>
                 </div>
               </div>
@@ -115,14 +118,14 @@ export default function BookFeature() {
             <div className='container'>
               <div className='row pt-5 pb-5'>
               <div className='col-md-6'>
+                  <Image src={coupleImage} width={585} height={446} className={styles.sectionImage} alt=""  style={{maxWidth: "100%"}}></Image>
+                </div>
+              <div className='col-md-6'>
                   <div >
                       <h1 className={styles.servicesTitle}>Couple</h1>
-                      <p className={styles.servicesText}><br/>Discover the romance of our couple water biking rental! Glide across the water&apos;s surface on our premium water bikes, designed for stability and an intimate aquatic adventure.<br/><br/> Each rental includes safety gear and a detailed operational briefing, tailored for couples seeking a unique shared experience.<br/><br/></p>
-                      <a href='https://www-31p.bookeo.com/bookeo/b_swdrfasdfa_start.html?ctlsrc2=AglzPbU2KwmHlv3F5OmwNOQEf6MKwtI8SbhzU%2Fm3Y5s%3D&src=02b'><button type='button' className={styles.bookSectionButton}>Book Now</button></a>
+                      <p className={styles.servicesText} style={{opacity: '0.63'}}><br/>Share an unforgettable experience with our couples’ surfboard rental! Ride the waves together on our high-quality surfboards, designed for stability and ease, making it a perfect choice for partners.<br/><br/>Each rental includes essential safety gear and a personalized orientation, ensuring you both feel confident and ready to enjoy the ocean. Dive into the adventure and make special memories in the vibrant waters of San Francisco!<br/><br/></p>
+                      <a data-bs-toggle="modal" data-bs-target="#bookModule" ><button type='button' className={styles.bookSectionButton} style={{width:"100%"}}>Book Now</button></a>
                   </div>
-                </div>
-                <div className='col-md-6'>
-                  <Image src={coupleImage} width={585} height={436} className={styles.sectionImage} alt=""  style={{maxWidth: "100%"}}></Image>
                 </div>
               </div>
             </div>
@@ -134,13 +137,13 @@ export default function BookFeature() {
             <div className='container'>
               <div className='row pt-5  pb-5'>
                 <div className='col-md-6'>
-                  <Image src={familyImage} width={585} height={446} className={styles.sectionImage} alt="" style={{maxWidth: "100%"}}></Image>
+                  <Image src={familyImage} width={604} height={457} className={styles.sectionImage} alt="" style={{maxWidth: "100%"}}></Image>
                 </div>
                 <div className='col-md-6'>
                   <div >
                       <h1 className={styles.servicesTitle}>Family</h1>
-                      <p className={styles.servicesText}><br/>Experience the joy of our family water biking rental! Ride our premium water bikes, crafted for stability and excitement on the water, creating an ideal adventure for all ages.<br/><br/> Each rental package includes safety gear and a comprehensive operational briefing, perfect for families seeking an extraordinary shared outing.<br/><br/></p>
-                      <a href='https://www-31p.bookeo.com/bookeo/b_swdrfasdfa_start.html?ctlsrc2=AglzPbU2KwmHlv3F5OmwNOQEf6MKwtI8SbhzU%2Fm3Y5s%3D&src=02b'><button type='button' className={styles.bookSectionButton}>Book Now</button></a>
+                      <p className={styles.servicesText} style={{opacity: '0.63'}}><br/>Dive into the fun with our family surfboard rental! Our top-quality boards are designed for stability and excitement, making it the perfect choice for all ages to ride the waves together.<br/><br/>Each rental package includes essential safety gear and a thorough orientation, ensuring your family has a safe and unforgettable day on the water. Make lasting memories as you surf the stunning coastline of San Francisco!<br/><br/></p>
+                      <a data-bs-toggle="modal" data-bs-target="#bookModule" ><button type='button' className={styles.bookSectionButton} style={{width:"100%"}}>Book Now</button></a>
                   </div>
                 </div>
               </div>

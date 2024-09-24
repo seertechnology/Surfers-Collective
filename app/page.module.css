@@ -22,8 +22,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 1024px;
-  
+  height: 100vh;
 }
 
 .fontOs {
@@ -46,6 +45,12 @@
   color: white;
 }
 
+.navlinks:hover {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  transition: all 1s !important;
+}
+
 /* Title Section - Start*/
 .titleSection {
   padding: 20px 0px 0px 0px;
@@ -53,7 +58,12 @@
 
   .titleTitleText {
     font-family: 'Bayon', sans-serif;
-    color: #ffffff;
+    /* color: #ffffff; */
+    background: linear-gradient(rgb(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
     font-size: 75px;
     letter-spacing: 5px;
     line-height: 80%;
@@ -62,7 +72,8 @@
 
   .titleSubText {
     font-family: 'Bayon', sans-serif;
-    color: #014271;
+    color: #ebfcff;
+    opacity: 50%;
     font-size: 17px;
     font-weight: 400;
     width: 500px;
@@ -71,14 +82,13 @@
   }
 
   .contactUsButton {
-    background-color: #2E5D6C;
+    background-color: #B43934;
     border: none;
     color: rgba(255, 255, 255 ,1);
     font-family: 'Bayon', sans-serif;
     font-size: 17px;
     margin-top: 7px;
-
-    border-radius: 20px;
+    border-radius: 5px;
     width: 144px;
     height: 29px;
     margin-right: 15px;
@@ -86,7 +96,7 @@
   }
 
   .contactUsButton:hover {
-    background-color: #408499;
+    background-color: #742421;
     transition: all 1s;
   }
 
@@ -308,7 +318,8 @@
 /* Section 5, Footer - Start */
 
 .footerSection {
-  background-color: #1C363F;
+  background-color: linear-gradient(to right, rgb(0, 0, 0));
+  background-image: linear-gradient(to right, #1E0303 , #1F2D3B, #4C5455);
   font-family: 'Bayon', sans-serif;
   padding: 15px 0px 15px 0px;
 }
@@ -350,7 +361,7 @@
 /* animation */
 .hidden {
   opacity: 0;
-  transition: allz;
+  transition: all;
 }
 
 
@@ -361,31 +372,22 @@
   }
 }
 
+
+
 @media screen and (max-width:1000px) {
 
-    .mobileNav {
-      /* min-width: 100%;
-      min-height: 100%; */
-    }
-  .desktopNav {
-    display: none;
+  .mobileNav {
+    /* min-width: 100%;
+    min-height: 100%; */
   }
 
-  .background {
-    background-image: url(../assets/images/mobileBg-2.png);
+  .desktopNav {
+    display: none;
   }
 
   .titleSection {
     padding: 75px 0px 0px 0px;
     margin: 0;
-  }
-
-  .titleTitleText {
-    font-family: 'Bayon', sans-serif;
-    color: #2E5D6C;
-    font-size: 55.5px;
-    font-weight: 400;
-    text-align: center;
   }
 
   .titleSubText {
@@ -399,7 +401,7 @@
   }
 
   .contactUsButton {
-    background-color: #2E5D6C;
+    background-color: #B43934;
     border: none;
     color: rgba(255, 255, 255 ,1);
     font-family: 'Bayon', sans-serif;
@@ -415,7 +417,7 @@
   }
 
   .contactUsButton:hover {
-    background-color: #3e8197;
+    background-color: #63201e;
     transition: all 1s;
   }
 
@@ -477,10 +479,10 @@
 }
 
 @media screen and (max-width: 1000px) {
-  /* .topLogo {
-    width: 69px;
-    height: 69px;
-  } */
+  .topLogo {
+    width: 104px;
+    height: 40px;
+  }
 
   .titleSection {
     margin: 0;
@@ -503,5 +505,17 @@
 
   .forgeImage {
     height: 350px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .background {
+    background-image: url(../assets/images/mobileBg.png);
+    height: 105vh;
+  }
+
+  .titleTitleText {
+    font-size: 55px;
+    line-height: 100%;
   }
 }

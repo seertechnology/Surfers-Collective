@@ -10,11 +10,12 @@
 }
 
 .background {
-  background-color: #116C89;
+  background: url('../../assets/images/mb-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  max-height: 500px;
+  height: 500px;
+  
 }
 
 .fontOs {
@@ -60,22 +61,21 @@
   }
 
   .contactUsButton {
-    background-color: #2E5D6C;
+    background-color: #B43934;
     border: none;
     color: rgba(255, 255, 255 ,1);
     font-family: 'Bayon', sans-serif;
     font-size: 17px;
     margin-top: 7px;
-
-    border-radius: 20px;
+    border-radius: 5px;
     width: 144px;
-    height: 33px;
+    height: 29px;
     margin-right: 15px;
-    box-shadow: 0px 0px 10px #2E5D6C;
+    box-shadow: 0px 0px 10px #408499;
   }
 
   .contactUsButton:hover {
-    background-color: #428298;
+    background-color: #742421;
     transition: all 1s;
   }
 
@@ -162,15 +162,20 @@
 
   .bookSectionButton {
     margin-top: 5px;
-    background-color: #0d4c61;
+    background-color: #B43934;
     border: none;
     color: rgba(255, 255, 255 ,1);
     font-family: 'Bayon', sans-serif;
     font-size: 17px;
     border-radius: 5px;
-    max-width: 130px;
+    max-width: 70%;
     max-height: 29px;
-    box-shadow: 0px 0px 10px #0d4c61;
+    box-shadow: 0px 0px 10px #610d0d;
+  }
+
+  .bookSectionButton:hover {
+    background-color: #782721;
+    transition: all 1s;
   }
 
 
@@ -308,9 +313,20 @@
   .mobileNav {
     display: none;
   }
+
+  .bookSectionButton {
+    max-width: 130px;
+  }
 }
 
 @media screen and (max-width:1000px) {
+
+  .servicesText {
+    font-size: 13px;
+    max-width: 70%;
+    opacity: 75%;
+    margin: auto;
+}
 
   .background {
     max-height: 400px;
