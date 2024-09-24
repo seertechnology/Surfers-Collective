@@ -7,7 +7,6 @@ export async function POST(request: Request) {
 
     console.log("start server")
     // load api key
-    sgMail.setApiKey(process.env.SENDGRID_API_KEY!);
 
     const { name, email, service, files, fileContents, message } = await request.json()
 
