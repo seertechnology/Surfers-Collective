@@ -4,7 +4,6 @@ import { NextResponse } from "next/server";
 const client = require('@sendgrid/client');
 
 export async function PUT(req: Request) {
-    client.setApiKey(process.env.SENDGRID_API_KEY)
 
     const { email } = await req.json()
     const data = {

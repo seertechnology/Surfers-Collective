@@ -42,8 +42,8 @@ export async function POST(request: Request) {
     
 
     const msg = {
-        to: "seerdev6@gmail.com.au",
-        from: "info@approvedmobilewelding.com.au",
+        to: "",
+        from: "",
         subject: `You have a new ${service} request from ${name} at ${email}`,
         html: 
         `<div>
